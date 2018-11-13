@@ -9,38 +9,28 @@ description: ""
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Guido Stein
   pic: 1
-  position: Lead Designer
+  position: Co-Chair
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: https://twitter.com/guidos
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/guidostein/
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Eddie Pickle
+  pic: 2
+  position: Co-Chair
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/eddie-pickle-b67545/
+
+- name: Anthony Calamito
+  pic: 3
+  position: Program Committee
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/anthony-calamito/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
