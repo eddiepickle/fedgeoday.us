@@ -68,6 +68,17 @@ h6 {
 .bg-darkest-gray {
     background-color: #222;
 }
+.person-name {
+    border-color: #{{ site.data.template.color.primary }};
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: black;
+    background-color: #{{ site.data.template.color.primary }};
+    display: inline-block; 
+    text-align: center; 
+    padding: 5px;
+    margin-bottom: 5px;
+}
 
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
