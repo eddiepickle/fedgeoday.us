@@ -8,7 +8,13 @@ description: "Open Source Geospatial in the Federal Government"
 
 
 # Team names, titles and social links
-people:
+chair:
+- name: Eddie Pickle
+  pic: 2
+  position: Co-Chair
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/eddie-pickle-b67545/
 - name: Guido Stein
   pic: 1
   position: Co-Chair
@@ -17,12 +23,7 @@ people:
       url: https://twitter.com/guidos
     - title: linkedin
       url: https://www.linkedin.com/in/guidostein/
-- name: Eddie Pickle
-  pic: 2
-  position: Co-Chair
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/eddie-pickle-b67545/
+committee:
 - name: Anthony Calamito
   pic: 3
   position: Program Committee
@@ -37,6 +38,14 @@ people:
       url: https://twitter.com/BulletproofBry
     - title: linkedin
       url: https://www.linkedin.com/in/bryan-lane-7ab4a26b/
+- name: Marc Vloemans
+  pic: 5
+  position: Program Committee
+  social:
+    - title: twitter
+      url: http://twitter.com/marcvloemans
+    - title: linkedin
+      url: http://nl.linkedin.com/in/marcvloemans
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
