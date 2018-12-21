@@ -376,6 +376,7 @@ section h3.section-subheading-alt1 {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 20px;
     text-align: left;
+    line-height: 120%;
 }
 
 
