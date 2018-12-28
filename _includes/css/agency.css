@@ -902,3 +902,35 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+.centerly{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-gold{
+    height:150px
+}
+.img-gold{
+    max-height:150px
+}
+
+.col-silver{
+    height:100px
+}
+.img-silver{
+    max-height:100px
+}
+
+.col-bronze{
+    height:50px
+}
+.img-bronze{
+    max-height:50px
+}
+
+.afill{
+    width:100%;
+    height:100%
+}
