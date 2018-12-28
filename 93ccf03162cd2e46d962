@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<link href="https://assets.gitlab-static.net" rel="dns-prefetch">
+<link crossorigin="" href="https://assets.gitlab-static.net" rel="preconnnect">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="adapt to poppler 0.58 (93ccf031) · Commits · Inkscape / inkscape" property="og:title">
+<meta content="Inkscape vector illustrator" property="og:description">
+<meta content="/uploads/-/system/project/avatar/3472737/inkscape.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.com/inkscape/inkscape/commit/93ccf03162cd2e46d962" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="adapt to poppler 0.58 (93ccf031) · Commits · Inkscape / inkscape" property="twitter:title">
+<meta content="Inkscape vector illustrator" property="twitter:description">
+<meta content="/uploads/-/system/project/avatar/3472737/inkscape.png" property="twitter:image">
+
+<title>adapt to poppler 0.58 (93ccf031) · Commits · Inkscape / inkscape · GitLab</title>
+<meta content="Inkscape vector illustrator" name="description">
+<link rel="shortcut icon" type="image/png" href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" />
+<link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/application-916422d517b997227afbf31cb24411489bca80d9d0ea112ce2d11d4b37ee2a57.css" />
+<link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/print-c8ff536271f8974b8a9a5f75c0ca25d2b8c1dceb4cff3c01d1603862a0bdcbfc.css" />
+
+
+
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://gitlab.com/https://assets.gitlab-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.gitlab-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.gitlab.net/15";gon.gitlab_url="https://gitlab.com";gon.revision="4c09765";gon.gitlab_logo="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg";gon.sprite_file_icons="https://gitlab.com/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="https://assets.gitlab-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.suggested_label_colors=["#0033CC","#428BCA","#44AD8E","#A8D695","#5CB85C","#69D100","#004E00","#34495E","#7F8C8D","#A295D6","#5843AD","#8E44AD","#FFECDB","#AD4363","#D10069","#CC0033","#FF0000","#D9534F","#D1D100","#F0AD4E","#AD8D43"];
+//]]>
+</script>
+
+<script src="https://assets.gitlab-static.net/assets/webpack/runtime.e4378f25.bundle.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/main.05439a0a.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/raven.baefd9f9.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.groups~pages.groups.activity~pages.groups.analytics.show~pages.groups.billings~pages.g~320d39fc.197e5114.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.groups.epics.show~pages.groups.milestones.edit~pages.groups.milestones.new~pages.proje~72f9ad42.6e37bb32.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/pages.projects.commit.show.4dacc73f.chunk.js" defer="defer"></script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="aUC45bvO5JBepP+E58x7qIBUDYx883NBFNVHHAxKPI/pr6yX9rsMp7e9/UiNKaokNjDHymfknF22f9iBTpF1Iw==" />
+<meta content="origin-when-cross-origin" name="referrer">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="https://assets.gitlab-static.net/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="https://assets.gitlab-static.net/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+<script>
+  ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+  p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+  };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+  n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/shared/snowplow/sp-438c6d3df8595dcbfe9a252fd3bacb37c189cc43f8c3770910e74c53721eb15c.js","snowplow"));
+  
+  window.snowplow('newTracker', 'cf', 'snowplow.trx.gitlab.net', {
+    appId: 'gitlab',
+    cookieDomain: '.gitlab.com',
+    userFingerprint: false,
+    respectDoNotTrack: true,
+    forceSecureTracker: true,
+    post: true,
+    contexts: {
+        webPage: true,
+    }
+    // Uncomment in https://gitlab.com/gitlab-org/gitlab-ee/issues/8432
+    // stateStorageStrategy: "localStorage"
+  });
+  
+  window.snowplow('enableActivityTracking', 30, 30);
+  window.snowplow('trackPageView');
+</script>
+
+</head>
+
+<body class="ui-indigo " data-find-file="/inkscape/inkscape/find_file/master" data-group="" data-page="projects:commit:show" data-project="inkscape">
+<script>
+  gl = window.gl || {};
+  gl.GfmAutoComplete = gl.GfmAutoComplete || {};
+  gl.GfmAutoComplete.dataSources = {"members":"/inkscape/inkscape/autocomplete_sources/members?type=Commit\u0026type_id=93ccf03162cd2e46d962","issues":"/inkscape/inkscape/autocomplete_sources/issues","mergeRequests":"/inkscape/inkscape/autocomplete_sources/merge_requests","labels":"/inkscape/inkscape/autocomplete_sources/labels?type=Commit\u0026type_id=93ccf03162cd2e46d962","milestones":"/inkscape/inkscape/autocomplete_sources/milestones","commands":"/inkscape/inkscape/autocomplete_sources/commands?type=Commit\u0026type_id=93ccf03162cd2e46d962","snippets":"/inkscape/inkscape/autocomplete_sources/snippets"};
+</script>
+
+
+
+<header class="navbar navbar-gitlab qa-navbar navbar-expand-sm js-navbar">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<a title="Dashboard" id="logo" href="/"><svg width="24" height="24" class="tanuki-logo" viewBox="0 0 36 36">
+  <path class="tanuki-shape tanuki-left-ear" fill="#e24329" d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"/>
+  <path class="tanuki-shape tanuki-right-ear" fill="#e24329" d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"/>
+  <path class="tanuki-shape tanuki-nose" fill="#e24329" d="M18,34.38 3,14 33,14 Z"/>
+  <path class="tanuki-shape tanuki-left-eye" fill="#fc6d26" d="M18,34.38 11.38,14 2,14 6,25Z"/>
+  <path class="tanuki-shape tanuki-right-eye" fill="#fc6d26" d="M18,34.38 24.62,14 34,14 30,25Z"/>
+  <path class="tanuki-shape tanuki-left-cheek" fill="#fca326" d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"/>
+  <path class="tanuki-shape tanuki-right-cheek" fill="#fca326" d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"/>
+</svg>
+
+<span class="logo-text d-none d-lg-block prepend-left-8">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 617 169"><path d="M315.26 2.97h-21.8l.1 162.5h88.3v-20.1h-66.5l-.1-142.4M465.89 136.95c-5.5 5.7-14.6 11.4-27 11.4-16.6 0-23.3-8.2-23.3-18.9 0-16.1 11.2-23.8 35-23.8 4.5 0 11.7.5 15.4 1.2v30.1h-.1m-22.6-98.5c-17.6 0-33.8 6.2-46.4 16.7l7.7 13.4c8.9-5.2 19.8-10.4 35.5-10.4 17.9 0 25.8 9.2 25.8 24.6v7.9c-3.5-.7-10.7-1.2-15.1-1.2-38.2 0-57.6 13.4-57.6 41.4 0 25.1 15.4 37.7 38.7 37.7 15.7 0 30.8-7.2 36-18.9l4 15.9h15.4v-83.2c-.1-26.3-11.5-43.9-44-43.9M557.63 149.1c-8.2 0-15.4-1-20.8-3.5V70.5c7.4-6.2 16.6-10.7 28.3-10.7 21.1 0 29.2 14.9 29.2 39 0 34.2-13.1 50.3-36.7 50.3m9.2-110.6c-19.5 0-30 13.3-30 13.3v-21l-.1-27.8h-21.3l.1 158.5c10.7 4.5 25.3 6.9 41.2 6.9 40.7 0 60.3-26 60.3-70.9-.1-35.5-18.2-59-50.2-59M77.9 20.6c19.3 0 31.8 6.4 39.9 12.9l9.4-16.3C114.5 6 97.3 0 78.9 0 32.5 0 0 28.3 0 85.4c0 59.8 35.1 83.1 75.2 83.1 20.1 0 37.2-4.7 48.4-9.4l-.5-63.9V75.1H63.6v20.1h38l.5 48.5c-5 2.5-13.6 4.5-25.3 4.5-32.2 0-53.8-20.3-53.8-63-.1-43.5 22.2-64.6 54.9-64.6M231.43 2.95h-21.3l.1 27.3v94.3c0 26.3 11.4 43.9 43.9 43.9 4.5 0 8.9-.4 13.1-1.2v-19.1c-3.1.5-6.4.7-9.9.7-17.9 0-25.8-9.2-25.8-24.6v-65h35.7v-17.8h-35.7l-.1-38.5M155.96 165.47h21.3v-124h-21.3v124M155.96 24.37h21.3V3.07h-21.3v21.3"/></svg>
+
+</span>
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li class="home"><a title="Projects" class="dashboard-shortcuts-projects" href="/explore">Projects
+</a></li><li class=""><a title="Groups" class="dashboard-shortcuts-groups" href="/explore/groups">Groups
+</a></li><li class=""><a title="Snippets" class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
+</a></li><li>
+<a title="About GitLab CE" href="/help">Help</a>
+</li>
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item d-none d-sm-none d-md-block m-auto">
+<div class="search search-form">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump to…" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options" spellcheck="false" tabindex="1" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" aria-label="Search or jump to…" />
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i></div>
+</div>
+<svg class="s16 search-icon"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" class="js-search-group-options" />
+<input type="hidden" name="project_id" id="search_project_id" value="3472737" class="js-search-project-options" data-project-path="inkscape" data-name="inkscape" data-issues-path="/inkscape/inkscape/issues" data-mr-path="/inkscape/inkscape/merge_requests" data-issues-disabled="true" />
+<input type="hidden" name="search_code" id="search_code" value="true" />
+<input type="hidden" name="repository_ref" id="repository_ref" />
+
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="3472737"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-sm-none d-md-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=3472737"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#search"></use></svg>
+</a></li>
+<li class="nav-item header-help dropdown">
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#question"></use></svg>
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li>
+<a href="/help">Help</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+</a></li>
+
+
+</ul>
+
+</div>
+</li>
+<li class="nav-item">
+<div>
+<a class="btn btn-sign-in" href="/users/sign_in?redirect_to_referer=yes">Sign in / Register</a>
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+
+<div class="layout-page page-with-contextual-sidebar">
+<div class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll">
+<div class="context-header">
+<a title="inkscape" href="/inkscape/inkscape"><div class="avatar-container s40 project-avatar">
+<img alt="inkscape" class="avatar s40 avatar-tile lazy" width="40" height="40" data-src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/3472737/inkscape.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class="sidebar-context-title">
+inkscape
+</div>
+</a></div>
+<ul class="sidebar-top-level-items">
+<li class="home"><a class="shortcuts-project" href="/inkscape/inkscape"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/inkscape/inkscape"><strong class="fly-out-top-item-name">
+Project
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Project details" class="shortcuts-project" href="/inkscape/inkscape"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" href="/inkscape/inkscape/activity"><span>Activity</span>
+</a></li>
+<li class=""><a title="Cycle Analytics" class="shortcuts-project-cycle-analytics" href="/inkscape/inkscape/cycle_analytics"><span>Cycle Analytics</span>
+</a></li></ul>
+</li><li class="active"><a class="shortcuts-tree" href="/inkscape/inkscape/tree/master"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#doc-text"></use></svg>
+</div>
+<span class="nav-item-name">
+Repository
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><a href="/inkscape/inkscape/tree/master"><strong class="fly-out-top-item-name">
+Repository
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a href="/inkscape/inkscape/tree/master">Files
+</a></li><li class="active"><a href="/inkscape/inkscape/commits/master">Commits
+</a></li><li class=""><a href="/inkscape/inkscape/branches">Branches
+</a></li><li class=""><a href="/inkscape/inkscape/tags">Tags
+</a></li><li class=""><a href="/inkscape/inkscape/graphs/master">Contributors
+</a></li><li class=""><a href="/inkscape/inkscape/network/master">Graph
+</a></li><li class=""><a href="/inkscape/inkscape/compare?from=master&amp;to=master">Compare
+</a></li><li class=""><a href="/inkscape/inkscape/graphs/master/charts">Charts
+</a></li><li class=""><a href="/inkscape/inkscape/path_locks">Locked Files
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-merge_requests" href="/inkscape/inkscape/merge_requests"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+20
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/inkscape/inkscape/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+20
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-pipelines qa-link-pipelines" href="/inkscape/inkscape/pipelines"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#rocket"></use></svg>
+</div>
+<span class="nav-item-name">
+CI / CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/inkscape/inkscape/pipelines"><strong class="fly-out-top-item-name">
+CI / CD
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/inkscape/inkscape/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/inkscape/inkscape/-/jobs"><span>
+Jobs
+</span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/inkscape/inkscape/pipeline_schedules"><span>
+Schedules
+</span>
+</a></li><li class=""><a title="Charts" class="shortcuts-pipelines-charts" href="/inkscape/inkscape/pipelines/charts"><span>
+Charts
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-wiki" href="http://wiki.inkscape.org"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="http://wiki.inkscape.org"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li><li class=""><a title="Members" class="shortcuts-tree" href="/inkscape/inkscape/settings/members"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#users"></use></svg>
+</div>
+<span class="nav-item-name">
+Members
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/inkscape/inkscape/project_members"><strong class="fly-out-top-item-name">
+Members
+</strong>
+</a></li></ul>
+</li><a class="toggle-sidebar-button js-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="icon-angle-double-left"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#angle-double-left"></use></svg>
+<svg class="icon-angle-double-right"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#angle-double-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/inkscape/inkscape/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a title="Network" class="shortcuts-network" href="/inkscape/inkscape/network/master">Graph
+</a></li>
+<li class="hidden">
+<a title="Charts" class="shortcuts-repository-charts" href="/inkscape/inkscape/graphs/master/charts">Charts
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="/inkscape/inkscape/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="/inkscape/inkscape/commits/master">Commits
+</a></li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+
+<div class="mobile-overlay"></div>
+<div class="alert-wrapper">
+
+
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited limit-container-width" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<i aria-hidden="true" data-hidden="true" class="fa fa-bars"></i>
+</button><div class="breadcrumbs-links js-title-container">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/inkscape"><img class="avatar-tile lazy" width="15" height="15" data-src="https://assets.gitlab-static.net/uploads/-/system/group/avatar/470642/inkscape.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />Inkscape</a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#angle-right"></use></svg></li> <li><a href="/inkscape/inkscape"><img alt="inkscape" class="avatar-tile lazy" width="15" height="15" data-src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/3472737/inkscape.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><span class="breadcrumb-item-text js-breadcrumb-item-text">inkscape</span></a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#angle-right"></use></svg></li>
+<li><a href="/inkscape/inkscape/commits/master">Commits</a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#angle-right"></use></svg></li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/inkscape/inkscape/commit/93ccf03162cd2e46d962">93ccf031</a></h2>
+</li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+<div class="flash-container flash-container-page">
+</div>
+
+<div class="d-flex"></div>
+</div>
+<div class=" limit-container-width">
+<div class="content" id="content-body">
+<div class="container-fluid container-limited limit-container-width">
+<div class="page-content-header js-commit-box" data-commit-path="/inkscape/inkscape/commit/93ccf03162cd2e46d962822d5507865f3451168c/branches">
+<div class="header-main-content">
+
+<strong>
+Commit
+<span class="commit-sha">93ccf031</span>
+</strong>
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA to clipboard" data-clipboard-text="93ccf03162cd2e46d962822d5507865f3451168c" type="button" title="Copy commit SHA to clipboard" aria-label="Copy commit SHA to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#duplicate"></use></svg></button>
+<span class="d-none d-sm-inline">authored</span>
+<time class="js-timeago" title="Sep 6, 2017 1:05pm" datetime="2017-09-06T13:05:31Z" data-toggle="tooltip" data-placement="top" data-container="body">Sep 06, 2017</time>
+<span>by</span>
+<a href="/dtardon"><img alt="David Tardon&#39;s avatar" src="https://secure.gravatar.com/avatar/8ec8bbcaa3072a7ac2efa04c3ed02108?s=48&amp;d=identicon" class="avatar s24 d-none d-sm-inline" title="David Tardon" /></a>
+<strong>
+<a class="commit-author-link" href="/dtardon"><span class="commit-author-name">David Tardon</span></a>
+</strong>
+
+<span class="light">Committed by</span>
+<strong>
+<a class="commit-committer-link" href="/tghs"><span class="commit-committer-name">Tim Sheridan</span></a>
+</strong>
+<time class="js-timeago" title="Sep 10, 2017 12:19pm" datetime="2017-09-10T12:19:38Z" data-toggle="tooltip" data-placement="top" data-container="body">Sep 10, 2017</time>
+</div>
+<div class="header-action-buttons">
+<span class="btn disabled btn-grouped d-none d-sm-block append-right-10">
+<i aria-hidden="true" data-hidden="true" class="fa fa-comment"></i>
+2
+</span>
+<a class="btn btn-default append-right-10 d-none d-sm-none d-md-inline" href="/inkscape/inkscape/tree/93ccf03162cd2e46d962822d5507865f3451168c">Browse files
+</a><div class="dropdown inline">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+<span>Options</span>
+<i aria-hidden="true" data-hidden="true" class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu dropdown-menu-right">
+<li class="d-block d-sm-none d-md-none">
+<a href="/inkscape/inkscape/tree/93ccf03162cd2e46d962822d5507865f3451168c">Browse Files
+</a></li>
+<li class="divider"></li>
+<li class="dropdown-header">
+Download
+</li>
+<li><a href="/inkscape/inkscape/commit/93ccf03162cd2e46d962822d5507865f3451168c.patch">Email Patches</a></li>
+<li><a href="/inkscape/inkscape/commit/93ccf03162cd2e46d962822d5507865f3451168c.diff">Plain Diff</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="commit-box" data-project-path="/inkscape/inkscape">
+<h3 class="commit-title">
+adapt to poppler 0.58
+</h3>
+</div>
+<div class="info-well">
+<div class="well-segment branch-info">
+<div class="icon-container commit-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3.876-1.008a4.002 4.002 0 0 1-7.752 0A1.01 1.01 0 0 1 4 9H1a1 1 0 1 1 0-2h3c.042 0 .083.003.124.008a4.002 4.002 0 0 1 7.752 0A1.01 1.01 0 0 1 12 7h3a1 1 0 0 1 0 2h-3a1.01 1.01 0 0 1-.124-.008z"/></svg>
+
+
+</div>
+<span class="cgray">parent</span>
+<a class="commit-sha" href="/inkscape/inkscape/commit/da1a3973ba88710faec2a0e00f9ba8cd416f5000">da1a3973</a>
+<div class="commit-info branches">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<div class="well-segment merge-request-info">
+<div class="icon-container">
+<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 16 16"><path d="m5 5.563v4.875c1.024.4 1.75 1.397 1.75 2.563 0 1.519-1.231 2.75-2.75 2.75-1.519 0-2.75-1.231-2.75-2.75 0-1.166.726-2.162 1.75-2.563v-4.875c-1.024-.4-1.75-1.397-1.75-2.563 0-1.519 1.231-2.75 2.75-2.75 1.519 0 2.75 1.231 2.75 2.75 0 1.166-.726 2.162-1.75 2.563m-1 8.687c.69 0 1.25-.56 1.25-1.25 0-.69-.56-1.25-1.25-1.25-.69 0-1.25.56-1.25 1.25 0 .69.56 1.25 1.25 1.25m0-10c.69 0 1.25-.56 1.25-1.25 0-.69-.56-1.25-1.25-1.25-.69 0-1.25.56-1.25 1.25 0 .69.56 1.25 1.25 1.25"/><path d="m10.501 2c1.381.001 2.499 1.125 2.499 2.506v5.931c1.024.4 1.75 1.397 1.75 2.563 0 1.519-1.231 2.75-2.75 2.75-1.519 0-2.75-1.231-2.75-2.75 0-1.166.726-2.162 1.75-2.563v-5.931c0-.279-.225-.506-.499-.506v.926c0 .346-.244.474-.569.271l-2.952-1.844c-.314-.196-.325-.507 0-.71l2.952-1.844c.314-.196.569-.081.569.271v.93m1.499 12.25c.69 0 1.25-.56 1.25-1.25 0-.69-.56-1.25-1.25-1.25-.69 0-1.25.56-1.25 1.25 0 .69.56 1.25 1.25 1.25"/></svg>
+
+</div>
+<span class="commit-info merge-requests" data-project-commit-path="/inkscape/inkscape/commit/93ccf03162cd2e46d962822d5507865f3451168c/merge_requests.json">
+<i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i>
+</span>
+</div>
+<div class="well-segment pipeline-info">
+<div class="status-icon-container">
+<a class="ci-status-icon-success" href="/inkscape/inkscape/pipelines/11700293"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#status_success"></use></svg>
+</a></div>
+Pipeline
+<a href="/inkscape/inkscape/pipelines/11700293">#11700293</a>
+passed
+with stage
+<div class="mr-widget-pipeline-graph">
+<div class="stage-cell">
+<div class="dropdown js-commit-pipeline-graph stage-container">
+<button class="ci-status-icon-success has-tooltip js-builds-dropdown-button mini-pipeline-graph-dropdown-toggle" data-placement="top" data-stage-endpoint="/inkscape/inkscape/pipelines/11700293/stage_ajax?stage=external" data-title="external: passed" data-toggle="dropdown" type="button">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#status_success_borderless"></use></svg>
+<i aria-hidden="true" data-hidden="true" class="fa fa-caret-down"></i>
+</button>
+<ul class="dropdown-menu mini-pipeline-graph-dropdown-menu js-builds-dropdown-container">
+<li class="js-builds-dropdown-list scrollable-menu">
+<ul></ul>
+</li>
+<li class="js-builds-dropdown-loading hidden">
+<div class="text-center">
+<i aria-hidden="true" aria-label="Loading" class="fa fa-spinner fa-spin"></i>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<ul class="nav-links no-top no-bottom commit-ci-menu nav nav-tabs">
+<li class="active"><a href="/inkscape/inkscape/commit/93ccf03162cd2e46d962822d5507865f3451168c">Changes
+<span class="badge badge-pill">4</span>
+</a></li><li class=""><a href="/inkscape/inkscape/commit/93ccf03162cd2e46d962822d5507865f3451168c/pipelines">Pipelines
+<span class="badge badge-pill js-pipelines-mr-count">1</span>
+</a></li></ul>
+
+<div class="content-block oneline-block files-changed diff-files-changed js-diff-files-changed">
+<div class="files-changed-inner">
+<div class="inline-parallel-buttons d-none d-sm-none d-md-block">
+<a class="btn btn-default" href="/inkscape/inkscape/commit/93ccf03162cd2e46d962?expanded=1">Expand all</a>
+<a class="d-none d-sm-inline-block btn btn-default" href="/inkscape/inkscape/commit/93ccf03162cd2e46d962822d5507865f3451168c?w=1">Hide whitespace changes</a>
+<div class="btn-group">
+<a id="inline-diff-btn" class="btn active" data-view-type="inline" href="/inkscape/inkscape/commit/93ccf03162cd2e46d962?view=inline">Inline</a>
+<a id="parallel-diff-btn" class="btn" data-view-type="parallel" href="/inkscape/inkscape/commit/93ccf03162cd2e46d962?view=parallel">Side-by-side</a>
+</div>
+</div>
+<div class="commit-stat-summary dropdown">
+Showing
+<button class="diff-stats-summary-toggler js-diff-stats-dropdown" data-display="static" data-toggle="dropdown" type="button">4 changed files<i aria-hidden="true" data-hidden="true" class="fa fa-caret-down prepend-left-5"></i></button>
+<span class="diff-stats-additions-deletions-expanded" id="diff-stats">
+with
+<strong class="cgreen">534 additions</strong>
+and
+<strong class="cred">0 deletions</strong>
+</span>
+<div aria-describedby="diff-stats" aria-hidden="true" class="diff-stats-additions-deletions-collapsed float-right d-none d-sm-none">
+<strong class="cgreen">+534</strong>
+<strong class="cred">-0</strong>
+</div>
+<div class="dropdown-menu diff-file-changes">
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field" placeholder="Search files" autocomplete="off" /><i aria-hidden="true" data-hidden="true" class="fa fa-search dropdown-input-search"></i><i aria-hidden="true" data-hidden="true" role="button" class="fa fa-times dropdown-input-clear js-dropdown-input-clear"></i></div>
+<div class="dropdown-content">
+<ul>
+<li>
+<a class="diff-changed-file" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d" title="CMakeScripts/DefineDependsandFlags.cmake">
+<svg class="s16  diff-file-changed-icon append-right-8"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#file-modified"></use></svg>
+<span class="diff-changed-file-content append-right-8">
+<strong class="diff-changed-file-name">
+DefineDependsandFlags.cmake
+</strong>
+<span class="diff-changed-file-path prepend-top-5">CMakeScripts/DefineDependsandFlags.cmake</span>
+</span>
+<span class="diff-changed-stats">
+<span class="cgreen">+4</span>
+<span class="cred">-0</span>
+</span>
+</a>
+</li>
+<li>
+<a class="diff-changed-file" href="#e895447501a41b8672213915c16e936d9517e23a" title="config.h.cmake">
+<svg class="s16  diff-file-changed-icon append-right-8"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#file-modified"></use></svg>
+<span class="diff-changed-file-content append-right-8">
+<strong class="diff-changed-file-name">
+config.h.cmake
+</strong>
+<span class="diff-changed-file-path prepend-top-5">config.h.cmake</span>
+</span>
+<span class="diff-changed-stats">
+<span class="cgreen">+3</span>
+<span class="cred">-0</span>
+</span>
+</a>
+</li>
+<li>
+<a class="diff-changed-file" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4" title="src/extension/internal/pdfinput/pdf-input.cpp">
+<svg class="s16  diff-file-changed-icon append-right-8"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#file-modified"></use></svg>
+<span class="diff-changed-file-content append-right-8">
+<strong class="diff-changed-file-name">
+pdf-input.cpp
+</strong>
+<span class="diff-changed-file-path prepend-top-5">src/extension/internal/pdfinput/pdf-input.cpp</span>
+</span>
+<span class="diff-changed-stats">
+<span class="cgreen">+6</span>
+<span class="cred">-0</span>
+</span>
+</a>
+</li>
+<li>
+<a class="diff-changed-file" href="#abc504431cc80f12e54a986556e2f9df36ebb502" title="src/extension/internal/pdfinput/pdf-parser.cpp">
+<svg class="s16  diff-file-changed-icon append-right-8"><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#file-modified"></use></svg>
+<span class="diff-changed-file-content append-right-8">
+<strong class="diff-changed-file-name">
+pdf-parser.cpp
+</strong>
+<span class="diff-changed-file-path prepend-top-5">src/extension/internal/pdfinput/pdf-parser.cpp</span>
+</span>
+<span class="diff-changed-stats">
+<span class="cgreen">+521</span>
+<span class="cred">-0</span>
+</span>
+</a>
+</li>
+<li class="dropdown-menu-empty-item hidden">
+<a>
+No files found.
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="files">
+<div class="diff-file file-holder" data-blob-diff-path="/inkscape/inkscape/blob/93ccf03162cd2e46d962822d5507865f3451168c/CMakeScripts/DefineDependsandFlags.cmake/diff" data-view="inline" id="1994486f44c44297946e6ded6605f1c3e1aecc1d">
+<div class="file-title-flex-parent is-commit js-file-title">
+<div class="file-header-content">
+<i class="fa diff-toggle-caret fa-fw"></i>
+<a href="#1994486f44c44297946e6ded6605f1c3e1aecc1d"><i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<strong class="file-title-name has-tooltip" data-container="body" data-title="CMakeScripts/DefineDependsandFlags.cmake">
+CMakeScripts/DefineDependsandFlags.cmake
+</strong>
+</a><button class="btn btn-clipboard btn-transparent prepend-left-5" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent prepend-left-5" data-title="Copy file path to clipboard" data-clipboard-text="{&quot;text&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;gfm&quot;:&quot;`CMakeScripts/DefineDependsandFlags.cmake`&quot;}" type="button" title="Copy file path to clipboard" aria-label="Copy file path to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#duplicate"></use></svg></button>
+
+</div>
+<div class="file-actions d-none d-sm-block">
+<a class="js-toggle-diff-comments btn active has-tooltip" title="Toggle comments for this file" href="#"><i aria-hidden="true" data-hidden="true" class="fa fa-comment"></i>
+</a>
+<a class="btn view-file js-view-file" href="/inkscape/inkscape/blob/93ccf03162cd2e46d962822d5507865f3451168c/CMakeScripts/DefineDependsandFlags.cmake">View file @ <span class="commit-sha">93ccf031</span></a>
+
+</div>
+</div>
+
+<div class="diff-content">
+<div class="diff-viewer" data-type="simple">
+<table class="code commit-diff diff-wrap-lines js-syntax-highlight text-file" data-commit-id="93ccf03162cd2e46d962822d5507865f3451168c" data-noteable-type="Commit">
+<tr class="line_holder match" id="">
+<td class="diff-line-num unfold js-unfold old_line" data-linenumber="124">...</td><td class="diff-line-num unfold js-unfold new_line" data-linenumber="124">...</td><td class="line_content match ">@@ -124,6 +124,10 @@ if(ENABLE_POPPLER)</td>
+</tr>
+<tr class="line_holder" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_124_124">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="124">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_124_124" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:124,&quot;new_line&quot;:124}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="124" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_124_124"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="124">
+<a data-linenumber="124" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_124_124"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC124" class="line" lang="cmake">		POPPLER_VERSION VERSION_EQUAL   <span class="s2">"0.29.0"</span><span class="p">)</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_125_125">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="125">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_125_125" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:125,&quot;new_line&quot;:125}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="125" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_125_125"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="125">
+<a data-linenumber="125" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_125_125"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC125" class="line" lang="cmake">	    <span class="nb">set</span><span class="p">(</span>POPPLER_EVEN_NEWER_NEW_COLOR_SPACE_API ON<span class="p">)</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_126_126">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="126">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_126_126" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:126,&quot;new_line&quot;:126}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="126" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_126_126"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="126">
+<a data-linenumber="126" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_126_126"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC126" class="line" lang="cmake">	<span class="nb">endif</span><span class="p">()</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_127">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="127">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_127" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:127}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_127"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="127">
+<a data-linenumber="127" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_127"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC127" class="line" lang="cmake">	<span class="nb">if</span><span class="p">(</span>POPPLER_VERSION VERSION_GREATER <span class="s2">"0.58.0"</span> OR</span>
+</td>
+</tr>
+<tr class="line_holder new" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_128">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="127">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_128" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:128}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_128"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="128">
+<a data-linenumber="128" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_128"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC128" class="line" lang="cmake">		POPPLER_VERSION VERSION_EQUAL   <span class="s2">"0.58.0"</span><span class="p">)</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_129">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="127">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_129" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:129}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_129"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="129">
+<a data-linenumber="129" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_129"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC129" class="line" lang="cmake">            <span class="nb">set</span><span class="p">(</span>POPPLER_NEW_OBJECT_API ON<span class="p">)</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_130">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="127">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_130" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:130}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_130"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="130">
+<a data-linenumber="130" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_130"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC130" class="line" lang="cmake">	<span class="nb">endif</span><span class="p">()</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_131">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="127">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_127_131" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:127,&quot;new_line&quot;:131}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="127" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_131"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="131">
+<a data-linenumber="131" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_127_131"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC131" class="line" lang="cmake">    <span class="nb">else</span><span class="p">()</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_128_132">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="128">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_128_132" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:128,&quot;new_line&quot;:132}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="128" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_128_132"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="132">
+<a data-linenumber="132" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_128_132"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC132" class="line" lang="cmake">	<span class="nb">set</span><span class="p">(</span>ENABLE_POPPLER_CAIRO OFF<span class="p">)</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="1994486f44c44297946e6ded6605f1c3e1aecc1d_129_133">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="129">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="1994486f44c44297946e6ded6605f1c3e1aecc1d_129_133" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;new_path&quot;:&quot;CMakeScripts/DefineDependsandFlags.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:129,&quot;new_line&quot;:133}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="129" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_129_133"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="133">
+<a data-linenumber="133" href="#1994486f44c44297946e6ded6605f1c3e1aecc1d_129_133"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC133" class="line" lang="cmake">    <span class="nb">endif</span><span class="p">()</span></span>
+</td>
+</tr>
+
+<tr class="line_holder">
+<td class="diff-line-num unfold js-unfold js-unfold-bottom old_line" data-linenumber="129">...</td><td class="diff-line-num unfold js-unfold js-unfold-bottom new_line" data-linenumber="133">...</td><td class="line_content match "></td>
+</tr>
+</table>
+
+
+</div>
+
+</div>
+
+</div>
+<div class="diff-file file-holder" data-blob-diff-path="/inkscape/inkscape/blob/93ccf03162cd2e46d962822d5507865f3451168c/config.h.cmake/diff" data-view="inline" id="e895447501a41b8672213915c16e936d9517e23a">
+<div class="file-title-flex-parent is-commit js-file-title">
+<div class="file-header-content">
+<i class="fa diff-toggle-caret fa-fw"></i>
+<a href="#e895447501a41b8672213915c16e936d9517e23a"><i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<strong class="file-title-name has-tooltip" data-container="body" data-title="config.h.cmake">
+config.h.cmake
+</strong>
+</a><button class="btn btn-clipboard btn-transparent prepend-left-5" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent prepend-left-5" data-title="Copy file path to clipboard" data-clipboard-text="{&quot;text&quot;:&quot;config.h.cmake&quot;,&quot;gfm&quot;:&quot;`config.h.cmake`&quot;}" type="button" title="Copy file path to clipboard" aria-label="Copy file path to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#duplicate"></use></svg></button>
+
+</div>
+<div class="file-actions d-none d-sm-block">
+<a class="js-toggle-diff-comments btn active has-tooltip" title="Toggle comments for this file" href="#"><i aria-hidden="true" data-hidden="true" class="fa fa-comment"></i>
+</a>
+<a class="btn view-file js-view-file" href="/inkscape/inkscape/blob/93ccf03162cd2e46d962822d5507865f3451168c/config.h.cmake">View file @ <span class="commit-sha">93ccf031</span></a>
+
+</div>
+</div>
+
+<div class="diff-content">
+<div class="diff-viewer" data-type="simple">
+<table class="code commit-diff diff-wrap-lines js-syntax-highlight text-file" data-commit-id="93ccf03162cd2e46d962822d5507865f3451168c" data-noteable-type="Commit">
+<tr class="line_holder match" id="">
+<td class="diff-line-num unfold js-unfold old_line" data-linenumber="149">...</td><td class="diff-line-num unfold js-unfold new_line" data-linenumber="149">...</td><td class="line_content match ">@@ -149,6 +149,9 @@</td>
+</tr>
+<tr class="line_holder" id="e895447501a41b8672213915c16e936d9517e23a_149_149">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="149">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="e895447501a41b8672213915c16e936d9517e23a_149_149" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;config.h.cmake&quot;,&quot;new_path&quot;:&quot;config.h.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:149,&quot;new_line&quot;:149}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="149" href="#e895447501a41b8672213915c16e936d9517e23a_149_149"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="149">
+<a data-linenumber="149" href="#e895447501a41b8672213915c16e936d9517e23a_149_149"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC149" class="line" lang="cmake">/* Use color space API from Poppler &gt;= 0.29.0 */</span>
+</td>
+</tr>
+<tr class="line_holder" id="e895447501a41b8672213915c16e936d9517e23a_150_150">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="150">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="e895447501a41b8672213915c16e936d9517e23a_150_150" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;config.h.cmake&quot;,&quot;new_path&quot;:&quot;config.h.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:150,&quot;new_line&quot;:150}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="150" href="#e895447501a41b8672213915c16e936d9517e23a_150_150"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="150">
+<a data-linenumber="150" href="#e895447501a41b8672213915c16e936d9517e23a_150_150"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC150" class="line" lang="cmake"><span class="c1">#cmakedefine POPPLER_EVEN_NEWER_NEW_COLOR_SPACE_API 1</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="e895447501a41b8672213915c16e936d9517e23a_151_151">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="151">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="e895447501a41b8672213915c16e936d9517e23a_151_151" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;config.h.cmake&quot;,&quot;new_path&quot;:&quot;config.h.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:151,&quot;new_line&quot;:151}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="151" href="#e895447501a41b8672213915c16e936d9517e23a_151_151"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="151">
+<a data-linenumber="151" href="#e895447501a41b8672213915c16e936d9517e23a_151_151"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC151" class="line" lang="cmake"></span>
+</td>
+</tr>
+<tr class="line_holder new" id="e895447501a41b8672213915c16e936d9517e23a_152_152">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="152">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="e895447501a41b8672213915c16e936d9517e23a_152_152" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;config.h.cmake&quot;,&quot;new_path&quot;:&quot;config.h.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:152}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#e895447501a41b8672213915c16e936d9517e23a_152_152"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="152">
+<a data-linenumber="152" href="#e895447501a41b8672213915c16e936d9517e23a_152_152"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC152" class="line" lang="cmake">/* Use object API from Poppler &gt;= 0.58.0 */</span>
+</td>
+</tr>
+<tr class="line_holder new" id="e895447501a41b8672213915c16e936d9517e23a_152_153">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="152">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="e895447501a41b8672213915c16e936d9517e23a_152_153" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;config.h.cmake&quot;,&quot;new_path&quot;:&quot;config.h.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:153}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#e895447501a41b8672213915c16e936d9517e23a_152_153"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="153">
+<a data-linenumber="153" href="#e895447501a41b8672213915c16e936d9517e23a_152_153"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC153" class="line" lang="cmake"><span class="c1">#cmakedefine POPPLER_NEW_OBJECT_API 1</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="e895447501a41b8672213915c16e936d9517e23a_152_154">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="152">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="e895447501a41b8672213915c16e936d9517e23a_152_154" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;config.h.cmake&quot;,&quot;new_path&quot;:&quot;config.h.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:154}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#e895447501a41b8672213915c16e936d9517e23a_152_154"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="154">
+<a data-linenumber="154" href="#e895447501a41b8672213915c16e936d9517e23a_152_154"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC154" class="line" lang="cmake"></span>
+</td>
+</tr>
+<tr class="line_holder" id="e895447501a41b8672213915c16e936d9517e23a_152_155">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="152">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="e895447501a41b8672213915c16e936d9517e23a_152_155" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;config.h.cmake&quot;,&quot;new_path&quot;:&quot;config.h.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:152,&quot;new_line&quot;:155}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="152" href="#e895447501a41b8672213915c16e936d9517e23a_152_155"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="155">
+<a data-linenumber="155" href="#e895447501a41b8672213915c16e936d9517e23a_152_155"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC155" class="line" lang="cmake">/* Define to 1 if you have the `pow' function. */</span>
+</td>
+</tr>
+<tr class="line_holder" id="e895447501a41b8672213915c16e936d9517e23a_153_156">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="153">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="e895447501a41b8672213915c16e936d9517e23a_153_156" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;config.h.cmake&quot;,&quot;new_path&quot;:&quot;config.h.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:153,&quot;new_line&quot;:156}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="153" href="#e895447501a41b8672213915c16e936d9517e23a_153_156"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="156">
+<a data-linenumber="156" href="#e895447501a41b8672213915c16e936d9517e23a_153_156"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC156" class="line" lang="cmake"><span class="c1">#cmakedefine HAVE_POW 1</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="e895447501a41b8672213915c16e936d9517e23a_154_157">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="154">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="e895447501a41b8672213915c16e936d9517e23a_154_157" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;config.h.cmake&quot;,&quot;new_path&quot;:&quot;config.h.cmake&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:154,&quot;new_line&quot;:157}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="154" href="#e895447501a41b8672213915c16e936d9517e23a_154_157"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="157">
+<a data-linenumber="157" href="#e895447501a41b8672213915c16e936d9517e23a_154_157"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC157" class="line" lang="cmake"></span>
+</td>
+</tr>
+
+<tr class="line_holder">
+<td class="diff-line-num unfold js-unfold js-unfold-bottom old_line" data-linenumber="154">...</td><td class="diff-line-num unfold js-unfold js-unfold-bottom new_line" data-linenumber="157">...</td><td class="line_content match "></td>
+</tr>
+</table>
+
+
+</div>
+
+</div>
+
+</div>
+<div class="diff-file file-holder" data-blob-diff-path="/inkscape/inkscape/blob/93ccf03162cd2e46d962822d5507865f3451168c/src/extension/internal/pdfinput/pdf-input.cpp/diff" data-view="inline" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4">
+<div class="file-title-flex-parent is-commit js-file-title">
+<div class="file-header-content">
+<i class="fa diff-toggle-caret fa-fw"></i>
+<a href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4"><i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<strong class="file-title-name has-tooltip" data-container="body" data-title="src/extension/internal/pdfinput/pdf-input.cpp">
+src/extension/internal/pdfinput/pdf-input.cpp
+</strong>
+</a><button class="btn btn-clipboard btn-transparent prepend-left-5" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent prepend-left-5" data-title="Copy file path to clipboard" data-clipboard-text="{&quot;text&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;gfm&quot;:&quot;`src/extension/internal/pdfinput/pdf-input.cpp`&quot;}" type="button" title="Copy file path to clipboard" aria-label="Copy file path to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#duplicate"></use></svg></button>
+
+</div>
+<div class="file-actions d-none d-sm-block">
+<a class="js-toggle-diff-comments btn active has-tooltip" title="Toggle comments for this file" href="#"><i aria-hidden="true" data-hidden="true" class="fa fa-comment"></i>
+</a>
+<a class="btn view-file js-view-file" href="/inkscape/inkscape/blob/93ccf03162cd2e46d962822d5507865f3451168c/src/extension/internal/pdfinput/pdf-input.cpp">View file @ <span class="commit-sha">93ccf031</span></a>
+
+</div>
+</div>
+
+<div class="diff-content">
+<div class="diff-viewer" data-type="simple">
+<table class="code commit-diff diff-wrap-lines js-syntax-highlight text-file" data-commit-id="93ccf03162cd2e46d962822d5507865f3451168c" data-noteable-type="Commit">
+<tr class="line_holder match" id="">
+<td class="diff-line-num unfold js-unfold old_line" data-linenumber="840">...</td><td class="diff-line-num unfold js-unfold new_line" data-linenumber="840">...</td><td class="line_content match ">@@ -840,14 +840,20 @@ PdfInput::open(::Inkscape::Extension::Input * /*mod*/, const gchar * uri) {</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_840_840">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="840">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_840_840" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:840,&quot;new_line&quot;:840}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="840" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_840_840"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="840">
+<a data-linenumber="840" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_840_840"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC840" class="line" lang="cpp">        <span class="p">}</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_841_841">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="841">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_841_841" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:841,&quot;new_line&quot;:841}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="841" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_841_841"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="841">
+<a data-linenumber="841" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_841_841"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC841" class="line" lang="cpp"></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_842_842">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="842">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_842_842" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:842,&quot;new_line&quot;:842}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="842" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_842_842"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="842">
+<a data-linenumber="842" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_842_842"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC842" class="line" lang="cpp">        <span class="c1">// Parse the document structure</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_843">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="843">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_843" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:843}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_843"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="843">
+<a data-linenumber="843" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_843"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC843" class="line" lang="cpp"><span class="cp">#if defined(POPPLER_NEW_OBJECT_API)</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_844">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="843">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_844" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:844}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_844"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="844">
+<a data-linenumber="844" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_844"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC844" class="line" lang="cpp">        <span class="n">Object</span> <span class="n">obj</span> <span class="o">=</span> <span class="n">page</span><span class="o">-&gt;</span><span class="n">getContents</span><span class="p">();</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_845">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="843">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_845" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:845}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_845"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="845">
+<a data-linenumber="845" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_845"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC845" class="line" lang="cpp"><span class="cp">#else</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_846">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="843">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_846" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:843,&quot;new_line&quot;:846}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="843" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_846"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="846">
+<a data-linenumber="846" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_843_846"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC846" class="line" lang="cpp">        <span class="n">Object</span> <span class="n">obj</span><span class="p">;</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_844_847">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="844">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_844_847" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:844,&quot;new_line&quot;:847}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="844" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_844_847"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="847">
+<a data-linenumber="847" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_844_847"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC847" class="line" lang="cpp">        <span class="n">page</span><span class="o">-&gt;</span><span class="n">getContents</span><span class="p">(</span><span class="o">&amp;</span><span class="n">obj</span><span class="p">);</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_845_848">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="845">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_845_848" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:848}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_845_848"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="848">
+<a data-linenumber="848" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_845_848"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC848" class="line" lang="cpp"><span class="cp">#endif</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_845_849">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="845">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_845_849" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:845,&quot;new_line&quot;:849}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="845" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_845_849"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="849">
+<a data-linenumber="849" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_845_849"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC849" class="line" lang="cpp">        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">obj</span><span class="p">.</span><span class="n">isNull</span><span class="p">())</span> <span class="p">{</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_846_850">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="846">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_846_850" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:846,&quot;new_line&quot;:850}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="846" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_846_850"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="850">
+<a data-linenumber="850" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_846_850"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC850" class="line" lang="cpp">            <span class="n">pdf_parser</span><span class="o">-&gt;</span><span class="n">parse</span><span class="p">(</span><span class="o">&amp;</span><span class="n">obj</span><span class="p">);</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_847_851">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="847">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_847_851" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:847,&quot;new_line&quot;:851}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="847" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_847_851"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="851">
+<a data-linenumber="851" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_847_851"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC851" class="line" lang="cpp">        <span class="p">}</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_848_852">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="848">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_848_852" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:848,&quot;new_line&quot;:852}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="848" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_848_852"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="852">
+<a data-linenumber="852" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_848_852"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC852" class="line" lang="cpp"></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_849_853">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="849">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_849_853" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:849,&quot;new_line&quot;:853}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="849" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_849_853"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="853">
+<a data-linenumber="853" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_849_853"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC853" class="line" lang="cpp">        <span class="c1">// Cleanup</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_850_854">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="850">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_850_854" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:854}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_850_854"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="854">
+<a data-linenumber="854" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_850_854"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC854" class="line" lang="cpp"><span class="cp">#if !defined(POPPLER_NEW_OBJECT_API)</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_850_855">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="850">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_850_855" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:850,&quot;new_line&quot;:855}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="850" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_850_855"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="855">
+<a data-linenumber="855" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_850_855"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC855" class="line" lang="cpp">        <span class="n">obj</span><span class="p">.</span><span class="n">free</span><span class="p">();</span></span>
+</td>
+</tr>
+<tr class="line_holder new" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_851_856">
+<td class="diff-line-num js-avatar-container new old_line" data-linenumber="851">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_851_856" data-line-type="new" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:null,&quot;new_line&quot;:856}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber=" " href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_851_856"></a>
+</td>
+<td class="diff-line-num new new_line" data-linenumber="856">
+<a data-linenumber="856" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_851_856"></a>
+</td>
+<td class="line_content new noteable_line"><span id="LC856" class="line" lang="cpp"><span class="cp">#endif</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_851_857">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="851">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_851_857" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:851,&quot;new_line&quot;:857}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="851" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_851_857"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="857">
+<a data-linenumber="857" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_851_857"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC857" class="line" lang="cpp">        <span class="k">delete</span> <span class="n">pdf_parser</span><span class="p">;</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_852_858">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="852">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_852_858" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:852,&quot;new_line&quot;:858}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="852" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_852_858"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="858">
+<a data-linenumber="858" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_852_858"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC858" class="line" lang="cpp">        <span class="k">delete</span> <span class="n">builder</span><span class="p">;</span></span>
+</td>
+</tr>
+<tr class="line_holder" id="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_853_859">
+<td class="diff-line-num js-avatar-container old_line" data-linenumber="853">
+<button name="button" type="submit" class="add-diff-note js-add-diff-note-button" data-line-code="a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_853_859" data-note-type="DiffNote" data-position="{&quot;base_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;start_sha&quot;:&quot;da1a3973ba88710faec2a0e00f9ba8cd416f5000&quot;,&quot;head_sha&quot;:&quot;93ccf03162cd2e46d962822d5507865f3451168c&quot;,&quot;old_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;new_path&quot;:&quot;src/extension/internal/pdfinput/pdf-input.cpp&quot;,&quot;position_type&quot;:&quot;text&quot;,&quot;old_line&quot;:853,&quot;new_line&quot;:859}" title="Add a comment to this line"><i aria-hidden="true" data-hidden="true" class="fa fa-comment-o"></i></button>
+<a data-linenumber="853" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_853_859"></a>
+</td>
+<td class="diff-line-num new_line" data-linenumber="859">
+<a data-linenumber="859" href="#a9710dfee2a2ee15fbefe900c245d91e2ec2fac4_853_859"></a>
+</td>
+<td class="line_content noteable_line"><span id="LC859" class="line" lang="cpp">        <span class="n">g_free</span><span class="p">(</span><span class="n">docname</span><span class="p">);</span></span>
+</td>
+</tr>
+
+<tr class="line_holder">
+<td class="diff-line-num unfold js-unfold js-unfold-bottom old_line" data-linenumber="853">...</td><td class="diff-line-num unfold js-unfold js-unfold-bottom new_line" data-linenumber="859">...</td><td class="line_content match "></td>
+</tr>
+</table>
+
+
+</div>
+
+</div>
+
+</div>
+<div class="diff-file file-holder" data-blob-diff-path="/inkscape/inkscape/blob/93ccf03162cd2e46d962822d5507865f3451168c/src/extension/internal/pdfinput/pdf-parser.cpp/diff" data-view="inline" id="abc504431cc80f12e54a986556e2f9df36ebb502">
+<div class="file-title-flex-parent is-commit js-file-title">
+<div class="file-header-content">
+<i class="fa diff-toggle-caret fa-fw"></i>
+<a href="#abc504431cc80f12e54a986556e2f9df36ebb502"><i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<strong class="file-title-name has-tooltip" data-container="body" data-title="src/extension/internal/pdfinput/pdf-parser.cpp">
+src/extension/internal/pdfinput/pdf-parser.cpp
+</strong>
+</a><button class="btn btn-clipboard btn-transparent prepend-left-5" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent prepend-left-5" data-title="Copy file path to clipboard" data-clipboard-text="{&quot;text&quot;:&quot;src/extension/internal/pdfinput/pdf-parser.cpp&quot;,&quot;gfm&quot;:&quot;`src/extension/internal/pdfinput/pdf-parser.cpp`&quot;}" type="button" title="Copy file path to clipboard" aria-label="Copy file path to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#duplicate"></use></svg></button>
+
+</div>
+<div class="file-actions d-none d-sm-block">
+<a class="js-toggle-diff-comments btn active has-tooltip" title="Toggle comments for this file" href="#"><i aria-hidden="true" data-hidden="true" class="fa fa-comment"></i>
+</a>
+<a class="btn view-file js-view-file" href="/inkscape/inkscape/blob/93ccf03162cd2e46d962822d5507865f3451168c/src/extension/internal/pdfinput/pdf-parser.cpp">View file @ <span class="commit-sha">93ccf031</span></a>
+
+</div>
+</div>
+
+<div class="diff-content">
+<div class="diff-viewer" data-type="simple">
+<div class="nothing-here-block diff-collapsed" data-diff-for-path="/inkscape/inkscape/commit/93ccf03162cd2e46d962/diff_for_path?file_identifier=src%2Fextension%2Finternal%2Fpdfinput%2Fpdf-parser.cpp-false-false-false&amp;new_path=src%2Fextension%2Finternal%2Fpdfinput%2Fpdf-parser.cpp&amp;old_path=src%2Fextension%2Finternal%2Fpdfinput%2Fpdf-parser.cpp">
+This diff is collapsed.
+<button class="click-to-expand btn btn-link">Click to expand it.</button>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="limited-width-notes">
+<ul class="notes main-notes-list timeline" id="notes-list">
+<li class="note note-row-40382751 note-wrapper outlined system-note timeline-entry" data-author-id="945074" data-note-id="40382751" id="note_40382751">
+<div class="timeline-entry-inner">
+<div class="timeline-icon">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#comment-dots"></use></svg>
+</div>
+<div class="timeline-content">
+<div class="note-header">
+<div class="note-header-info">
+<a href="/ede123">
+<span class="note-header-author-name">
+Patrick Storz
+</span>
+<span class="user-status-emoji has-tooltip" title="" data-html="true" data-placement="top"><gl-emoji title="unicorn face" data-name="unicorn" data-unicode-version="8.0">🦄</gl-emoji></span>
+<span class="note-headline-light">
+@ede123
+</span>
+</a>
+<span class="note-headline-light">
+<span class="note-headline-meta">
+<span class="system-note-message">
+<p dir="auto">mentioned in merge request <a href="/inkscape/inkscape/merge_requests/76" data-original="!76" data-link="false" data-project="3472737" data-merge-request="4927176" data-reference-type="merge_request" data-container="body" data-placement="bottom" title="adapt to poppler 0.58" class="gfm gfm-merge_request has-tooltip">!76 (closed)</a></p>
+</span>
+<span class="system-note-separator">
+&middot;
+</span>
+<a class="system-note-separator" href="#note_40382751"><time class="js-timeago note-created-ago" title="Sep 14, 2017 5:28pm" datetime="2017-09-14T17:28:02Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Sep 14, 2017</time></a>
+</span>
+</span>
+</div>
+</div>
+<div class="note-body">
+<div class="note-text md">
+<p dir="auto">mentioned in merge request <a href="/inkscape/inkscape/merge_requests/76" data-original="!76" data-link="false" data-project="3472737" data-merge-request="4927176" data-reference-type="merge_request" data-container="body" data-placement="bottom" title="adapt to poppler 0.58" class="gfm gfm-merge_request has-tooltip">!76 (closed)</a></p>
+</div>
+
+<div class="original-note-content hidden" data-markdown-version="3" data-post-url="/inkscape/inkscape/notes/40382751" data-target-id="93ccf03162cd2e46d962822d5507865f3451168c" data-target-type="commit">
+mentioned in merge request !76
+</div>
+<div class="note-awards">
+<div class="awards hidden js-awards-block" data-award-url="/inkscape/inkscape/notes/40382751/toggle_award_emoji">
+</div>
+
+</div>
+<div class="system-note-commit-list-toggler hide">
+Toggle commit list
+<i class="fa fa-angle-down"></i>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="note note-row-110463524 note-wrapper outlined system-note timeline-entry" data-author-id="401586" data-note-id="110463524" id="note_110463524">
+<div class="timeline-entry-inner">
+<div class="timeline-icon">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#comment-dots"></use></svg>
+</div>
+<div class="timeline-content">
+<div class="note-header">
+<div class="note-header-info">
+<a href="/su-v">
+<span class="note-header-author-name">
+su-v
+</span>
+
+<span class="note-headline-light">
+@su-v
+</span>
+</a>
+<span class="note-headline-light">
+<span class="note-headline-meta">
+<span class="system-note-message">
+<p dir="auto">mentioned in merge request <a href="/inkscape/inkscape/merge_requests/371" data-original="!371" data-link="false" data-link-reference="false" data-project="3472737" data-merge-request="18028646" data-reference-type="merge_request" data-container="body" data-placement="bottom" title="backported: fix 1789208 poppler 0.69" class="gfm gfm-merge_request has-tooltip">!371 (merged)</a></p>
+</span>
+<span class="system-note-separator">
+&middot;
+</span>
+<a class="system-note-separator" href="#note_110463524"><time class="js-timeago note-created-ago" title="Oct 20, 2018 12:19pm" datetime="2018-10-20T12:19:23Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Oct 20, 2018</time></a>
+</span>
+</span>
+</div>
+</div>
+<div class="note-body">
+<div class="note-text md">
+<p dir="auto">mentioned in merge request <a href="/inkscape/inkscape/merge_requests/371" data-original="!371" data-link="false" data-link-reference="false" data-project="3472737" data-merge-request="18028646" data-reference-type="merge_request" data-container="body" data-placement="bottom" title="backported: fix 1789208 poppler 0.69" class="gfm gfm-merge_request has-tooltip">!371 (merged)</a></p>
+</div>
+
+<div class="original-note-content hidden" data-markdown-version="12" data-post-url="/inkscape/inkscape/notes/110463524" data-target-id="93ccf03162cd2e46d962822d5507865f3451168c" data-target-type="commit">
+mentioned in merge request !371
+</div>
+<div class="note-awards">
+<div class="awards hidden js-awards-block" data-award-url="/inkscape/inkscape/notes/110463524/toggle_award_emoji">
+</div>
+
+</div>
+<div class="system-note-commit-list-toggler hide">
+Toggle commit list
+<i class="fa fa-angle-down"></i>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+</ul>
+<div class="note-edit-form">
+<form class="edit-note common-note-form js-quick-submit" action="#" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="LFXxvdiaOaNS9nB6fqpP5OCoCD8cVvRcQ2NvXiWp6CysuuXPle/RlLvvcrYUT55oVszCeQdBG0DhyfDDZ3KhgA==" /><input type="hidden" name="target_id" id="target_id" value="" class="js-form-target-id" />
+<input type="hidden" name="target_type" id="target_type" value="" class="js-form-target-type" />
+<div class="md-area">
+<div class="md-header">
+<ul class="nav nav-tabs nav-links clearfix">
+<li class="md-header-tab active">
+<button class="js-md-write-button" tabindex="-1">
+Write
+</button>
+</li>
+<li class="md-header-tab">
+<button class="js-md-preview-button" tabindex="-1">
+Preview
+</button>
+</li>
+<li class="md-header-toolbar active">
+<button type="button" class="toolbar-btn js-md has-tooltip" tabindex="-1" data-md-tag="**" data-container="body" title="Add bold text" aria-label="Add bold text"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#bold"></use></svg></button>
+<button type="button" class="toolbar-btn js-md has-tooltip" tabindex="-1" data-md-tag="*" data-container="body" title="Add italic text" aria-label="Add italic text"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#italic"></use></svg></button>
+<button type="button" class="toolbar-btn js-md has-tooltip" tabindex="-1" data-md-tag="&gt; " data-md-prepend="true" data-container="body" title="Insert a quote" aria-label="Insert a quote"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#quote"></use></svg></button>
+<button type="button" class="toolbar-btn js-md has-tooltip" tabindex="-1" data-md-tag="`" data-md-block="```" data-container="body" title="Insert code" aria-label="Insert code"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#code"></use></svg></button>
+<button type="button" class="toolbar-btn js-md has-tooltip" tabindex="-1" data-md-tag="[{text}](url)" data-md-select="url" data-container="body" title="Add a link" aria-label="Add a link"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#link"></use></svg></button>
+<button type="button" class="toolbar-btn js-md has-tooltip" tabindex="-1" data-md-tag="* " data-md-prepend="true" data-container="body" title="Add a bullet list" aria-label="Add a bullet list"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#list-bulleted"></use></svg></button>
+<button type="button" class="toolbar-btn js-md has-tooltip" tabindex="-1" data-md-tag="1. " data-md-prepend="true" data-container="body" title="Add a numbered list" aria-label="Add a numbered list"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#list-numbered"></use></svg></button>
+<button type="button" class="toolbar-btn js-md has-tooltip" tabindex="-1" data-md-tag="* [ ] " data-md-prepend="true" data-container="body" title="Add a task list" aria-label="Add a task list"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#task-done"></use></svg></button>
+<button type="button" class="toolbar-btn js-md has-tooltip" tabindex="-1" data-md-tag="| header | header |
+| ------ | ------ |
+| cell | cell |
+| cell | cell |" data-md-prepend="true" data-container="body" title="Add a table" aria-label="Add a table"><svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#table"></use></svg></button>
+<button aria-label="Go full screen" class="toolbar-btn toolbar-fullscreen-btn js-zen-enter has-tooltip" data-container="body" tabindex="-1" title="Go full screen" type="button">
+<svg><use xlink:href="https://gitlab.com/assets/icons-1bbf3f0e2e8f631ea6006c647f843db214684476054223102c16630dabc450d4.svg#screen-full"></use></svg>
+</button>
+</li>
+</ul>
+</div>
+<div class="md-write-holder">
+<div class="zen-backdrop">
+<textarea name="note[note]" id="note_note" class="note-textarea js-note-text js-task-list-field js-gfm-input js-autosize markdown-area" placeholder="Write a comment or drag your files here…">
+</textarea>
+<a class="zen-control zen-control-leave js-zen-leave" href="#">
+<i aria-hidden="true" data-hidden="true" class="fa fa-compress"></i>
+</a>
+</div>
+
+<div class="comment-toolbar clearfix">
+<div class="toolbar-text">
+<a target="_blank" tabindex="-1" href="/help/user/markdown">Markdown</a>
+is
+supported
+</div>
+<span class="uploading-container">
+<span class="uploading-progress-container hide">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-image-o toolbar-button-icon"></i>
+<span class="attaching-file-message">
+</span>
+<span class="uploading-progress">0%</span>
+<span class="uploading-spinner">
+<i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin toolbar-button-icon"></i>
+</span>
+</span>
+<span class="uploading-error-container hide">
+<span class="uploading-error-icon">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-image-o toolbar-button-icon"></i>
+</span>
+<span class="uploading-error-message">
+</span>
+<button class="retry-uploading-link" type="button">Try again</button>
+or
+<button class="attach-new-file markdown-selector" type="button">attach a new file</button>
+</span>
+<button class="markdown-selector button-attach-file" tabindex="-1" type="button">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-image-o toolbar-button-icon"></i>
+Attach a file
+</button>
+<button class="btn btn-default btn-sm hide button-cancel-uploading-files" type="button">Cancel</button>
+</span>
+</div>
+
+
+</div>
+<div class="md md-preview-holder js-md-preview hide md-preview" data-url="/inkscape/inkscape/preview_markdown"></div>
+<div class="referenced-commands hide"></div>
+<div class="referenced-users hide">
+<span>
+<i aria-hidden="true" data-hidden="true" class="fa fa-exclamation-triangle"></i>
+You are about to add
+<strong>
+<span class="js-referenced-users-count">0</span>
+people
+</strong>
+to the discussion. Proceed with caution.
+</span>
+</div>
+</div>
+<div class="note-form-actions clearfix">
+<div class="settings-message note-edit-warning js-finish-edit-warning">
+Finish editing this message first!
+</div>
+<input type="submit" name="commit" value="Save comment" class="btn btn-nr btn-success js-comment-save-button" data-disable-with="Save comment" />
+<button class="btn btn-nr btn-cancel note-edit-cancel" type="button">
+Cancel
+</button>
+</div>
+</form></div>
+
+<div class="disabled-comment text-center prepend-top-default">
+Please
+<a class="js-register-link" href="/users/sign_in?redirect_to_referer=yes#register-pane">register</a>
+or
+<a class="js-sign-in-link" href="/users/sign_in?redirect_to_referer=yes">sign in</a>
+to comment
+</div>
+<script class="js-notes-data" type="application/json">{"notesUrl":"/inkscape/inkscape/noteable/commit/93ccf03162cd2e46d962822d5507865f3451168c/notes","notesIds":[40382751,110463524],"now":1546014507,"diffView":"inline","enableGFM":{"emojis":true,"members":true,"issues":true,"mergeRequests":true,"epics":true,"milestones":true,"labels":true}}</script>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
+
