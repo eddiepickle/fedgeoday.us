@@ -46,6 +46,14 @@ committee:
       url: http://twitter.com/marcvloemans
     - title: linkedin
       url: http://nl.linkedin.com/in/marcvloemans
+- name: Joshua Campbell
+  pic: 5
+  position: Program Committee
+  social:
+    - title: twitter
+      url: https://twitter.com/disruptivegeo
+    - title: linkedin
+      url: https://www.linkedin.com/in/joshuascampbell
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
