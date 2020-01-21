@@ -1,0 +1,25 @@
+- title: Registration and Breakfast
+  start_time: "8:00 AM"
+  end_time: "9:00 AM"
+  description: "Sign in and mingle with new friends over some breakfast."
+- title: Welcome
+  start_time: "9:00 AM"
+  end_time: "9:15 AM"
+- title: Morning Keynote
+  start_time: "9:15 AM"
+  end_time: "9:45 AM"
+  description: "How open source software, VGI/OSM and open ML/AI is transforming NGA's production processes"
+- title: Open Data & Mapping for Disaster Response & Resilience
+  start_time: "9:45 AM"
+  end_time: "10:45 AM"
+  moderators:
+    - name: Dr. Joshua S. Campbell
+      position: CEO - Sandhill Geographic
+      link: https://www.linkedin.com/in/joshuascampbell/
+  panelists:
+    - name: Carrie Stokes
+      position: USAID - Director of the GeoCenter
+      link: http://geocenter.digitaldevelopment.org/about-us-0
+    - name: Vivien Deparday
+      position: Lead - Open Data for Resilience Initiative
+      link: https://www.linkedin.com/in/vivien-deparday-31a50214/

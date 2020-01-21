@@ -2,59 +2,10 @@ url: https://fedgeo.us
 # baseurl: /fedgeo.us
 
 # Site settings
-title: FedGeoDay 2019
+title: FedGeoDay
+year: 2019
 email: osgeo@technocation.org
 description: "Open Source Geospatial in the Federal Government"
-
-
-# Team names, titles and social links
-chair:
-- name: Eddie Pickle
-  pic: 2
-  position: Co-Chair
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/eddie-pickle-b67545/
-- name: Guido Stein
-  pic: 1
-  position: Co-Chair
-  social:
-    - title: twitter
-      url: https://twitter.com/guidos
-    - title: linkedin
-      url: https://www.linkedin.com/in/guidostein/
-committee:
-- name: Anthony Calamito
-  pic: 3
-  position: Program Committee
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/anthony-calamito/
-- name: Bryan Lane
-  pic: 4
-  position: Program Committee
-  social:
-    - title: twitter
-      url: https://twitter.com/BulletproofBry
-    - title: linkedin
-      url: https://www.linkedin.com/in/bryan-lane-7ab4a26b/
-- name: Marc Vloemans
-  pic: 5
-  position: Program Committee
-  social:
-    - title: twitter
-      url: http://twitter.com/marcvloemans
-    - title: linkedin
-      url: http://nl.linkedin.com/in/marcvloemans
-- name: Joshua Campbell
-  pic: 6
-  position: Program Committee
-  social:
-    - title: twitter
-      url: https://twitter.com/disruptivegeo
-    - title: linkedin
-      url: https://www.linkedin.com/in/joshuascampbell
-
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -64,15 +15,10 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown

@@ -74,8 +74,8 @@ h6 {
     font-weight: 700;
     color: DarkSlateGray;
     background-color: #{{ site.data.template.color.primary }};
-    display: inline-block; 
-    text-align: center; 
+    display: inline-block;
+    text-align: center;
     padding: 5px;
     margin-bottom: 5px;
     width:95%;
@@ -677,6 +677,7 @@ section h3.section-subheading-alt1 {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width: 264px;
 }
 
 .team-member h4 {
@@ -940,8 +941,8 @@ body {
     vertical-align: top;
 }
 .ltalk{
-    color:white; 
-    background-color: grey; 
-    padding:10px; 
+    color:white;
+    background-color: grey;
+    padding:10px;
     margin-bottom: 0px
 }

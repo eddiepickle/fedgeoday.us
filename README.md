@@ -1,30 +1,25 @@
-Agency Jekyll theme
-====================
+# fed-geo-2020
+Work in Progress: Website for Fed Geo Day 2020 Conference
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+# install
+```bash
+bundle install --path vendor/bundle
+```
 
-# How to use
+# run
+Locally
+```
+bundle exec jekyll serve
+```
+If you are on a server, you may have to run:
+```
+bundle exec jekyll serve --host 0.0.0.0
+```
 
-###Portfolio 
+# primary contacts for the conference
+Eddie Pickle
+Guido Stein
 
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+# primary contacts for the website
+Daniel J. Dufour (daniel@geosurge.io)
+Victoria Mak (victoria@geosurge.io)

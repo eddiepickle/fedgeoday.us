@@ -5,79 +5,53 @@
             <h2 class="section-heading">Host Sponsor</h2>
         </div>
         <div class="row">
+            {% assign hosts = site.data.sponsors | where: "level","host" | sort: 'lowercase_name' %}
+            {% for host in hosts %}
             <div class="col-md-8">
-                <a href="https://osgeo.us" class="afill">
-                    <img src="img/logos/osgeo-us-logo.png" class="img-responsive" alt="OSGeo US Logo">
+                <a href="{{host._url}}" class="afill">
+                    <img src="assets/img/sponsors/{{host.img}}" class="img-responsive" alt="{{host._name}} Logo">
                 </a>
             </div>
+            {% endfor %}
         </div>
         <div class="row">
             <h2 class="section-heading">Gold Sponsors</h2>
         </div>
         <div class="row">
+            {% assign gold_sponsors = site.data.sponsors | where: "level","gold" | sort: 'lowercase_name' %}
+            {% for sponsor in gold_sponsors %}
             <div class="col-md-6 centerly col-gold">
-                <a href="https://www.radiantsolutions.com/">
-                    <img src="img/logos/radiant-solutions-logo.png" class="img-responsive img-gold" alt="Radiant Solutions Logo">
+                <a href="{{sponsor._url}}">
+                    <img src="assets/img/sponsors/{{sponsor.img}}" class="img-responsive img-gold" alt="{{sponsor._name}} Logo">
                 </a>
             </div>
-            <div class="col-md-6 centerly col-gold">
-                <a href="https://www.crunchydata.com/">
-                    <img src="img/logos/crunchy-logo.png" class="img-responsive img-gold" alt="Crunchy Data Logo">
-                </a>
-            </div>
+            {% endfor %}
         </div>
         <div class="row">
             <h2 class="section-heading">Silver Sponsors</h2>
         </div>
         <div class="row">
+            {% assign silver_sponsors = site.data.sponsors | where: "level","silver" | sort: 'lowercase_name' %}
+            {% for sponsor in silver_sponsors %}
             <div class="col-md-4 centerly col-silver">
-                <a href="https://www.locationtech.org">
-                    <img src="img/logos/locationtech-logo.png" class="img-responsive center-block img-silver" alt="LocationTech Logo">
+                <a href="{{sponsor._url}}">
+                    <img src="assets/img/sponsors/{{sponsor.img}}" class="img-responsive center-block img-silver" alt="{{sponsor._name}} Logo">
                 </a>
             </div>
-            <div class="col-md-4 centerly col-silver">
-                <a href="https://www.azavea.com/">
-                    <img src="img/logos/azavea-logo.png" class="img-responsive center-block img-silver" alt="Azavea Logo">
-                </a>
-            </div>
-            <div class="col-md-4 centerly col-silver">
-                <a href="http://www.ccri.com/">
-                    <img src="img/logos/ccri-logo.jpg" class="img-responsive center-block img-silver" alt="CCRi Logo">
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 centerly col-silver">
-                <a href="http://www.cosmiqworks.org/">
-                    <img src="img/logos/cosmiq-logo.png" class="img-responsive center-block img-silver" alt="Cosmiq Logo">
-                </a>
-            </div>
+            {% endfor %}
         </div>
         <div class="row">
             <h2 class="section-heading">Bronze Sponsors</h2>
         </div>
         <div class="row">
+            {% assign bronze_sponsors = site.data.sponsors | where: "level","bronze" | sort: 'lowercase_name' %}
+            {% for sponsor in bronze_sponsors %}
             <div class="col-sm-2 col-bronze">
-                <a href="https://www.appgeo.com">
-                    <img src="img/logos/appgeo-logo.png" class="img-responsive img-bronze" alt="Applied Geographics, Inc. Logo">
+                <a href="{{sponsor._url}}">
+                    <img src="assets/img/sponsors/{{sponsor.img}}" class="img-responsive img-bronze" alt="{{sponsor._name}} Logo">
                 </a>
             </div>
-            <div class="col-sm-2 col-bronze">
-                <a href="http://www.t-sciences.com/">
-                    <img src="img/logos/t-sciences-logo.png" class="img-responsive img-bronze" alt="THERMOPYLAE SCIENCES + TECHNOLOGY Logo">
-                </a>
-            </div>
-            <div class="col-sm-2 col-bronze">
-                <a href="http://www.rgi-corp.com/">
-                    <img src="img/logos/rgi-logo.png" class="img-responsive img-bronze" alt="Reinventing Geospatial, Inc. Logo">
-                </a>
-            </div>
-
-            <div class="col-sm-2 col-bronze">
-                <a href="http://prominentedge.com/"><img src="img/logos/prominent-edge-logo.png" class="img-responsive img-bronze"
-                        alt="Prominent Edge Logo">
-                </a>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
