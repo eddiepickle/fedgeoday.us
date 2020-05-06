@@ -1,25 +1,85 @@
-- title: Registration and Breakfast
-  start_time: "8:00 AM"
-  end_time: "9:00 AM"
-  description: "Sign in and mingle with new friends over some breakfast."
-- title: Welcome
-  start_time: "9:00 AM"
-  end_time: "9:15 AM"
-- title: Morning Keynote
-  start_time: "9:15 AM"
-  end_time: "9:45 AM"
-  description: "How open source software, VGI/OSM and open ML/AI is transforming NGA's production processes"
-- title: Open Data & Mapping for Disaster Response & Resilience
-  start_time: "9:45 AM"
-  end_time: "10:45 AM"
-  moderators:
-    - name: Dr. Joshua S. Campbell
-      position: CEO - Sandhill Geographic
-      link: https://www.linkedin.com/in/joshuascampbell/
-  panelists:
-    - name: Carrie Stokes
-      position: USAID - Director of the GeoCenter
-      link: http://geocenter.digitaldevelopment.org/about-us-0
-    - name: Vivien Deparday
-      position: Lead - Open Data for Resilience Initiative
-      link: https://www.linkedin.com/in/vivien-deparday-31a50214/
+fedgeo_2020_agenda:
+  day:
+    - title: Panel Day
+      date_calendar: 2020-6-11
+      date_week: Thursday
+      session:
+      - title: Virtual reception room for group chat  
+        time_start: 8:00 AM
+        time_end: 9:00 AM
+        description: Sign in and mingle with other atendees
+        volunteer:
+        - role: session manager
+          name: TBA
+      - title: Welcome
+        time_start: 9:00 AM
+        time_end: 9:10 AM
+        description: Welcome and announcments from the conference organizers
+        volunteer:
+        - role: session manager
+          name: TBA
+        speaker:
+        - name: Eddie Pickle
+          board_role: Co-Chair
+          position: Senior Director, Insight Solutions
+          organization: Maxar Technologies
+          link: https://www.linkedin.com/in/eddie-pickle-b67545
+      - title: Morning Keynote
+        time_start: 9:10 AM
+        time_end: 9:45 AM
+        description: TBA
+        volunteer:
+        - role: session manager
+          name: TBA
+        - role: community manager
+          name: TBA
+        speaker:
+        - name: Katie Baynes
+          position: Systems Architect
+          organization: NASA Goddard Space Flight Center
+          link: https://www.linkedin.com/in/kathleenebaynes
+      - title: Open Mapping to Enable Program
+        time_start: 9:45 AM
+        time_end: 10:45 AM
+        description: Using Open Mapping to Enable Program / Project Success [Including While Working Remotely!]
+        volunteer:
+        - role: session manager
+          name: TBA
+        - role: community manager
+          name: TBA
+        - role: community manager
+          name: TBA
+        moderator:
+        - name: Steve Gillotte 
+          position: CEO
+          organization: RGi
+          link: https://www.linkedin.com/in/sgillotte
+    - title: Hands On Day
+      date_calendar: 2020-6-12
+      date_week: Friday
+      session:
+      - title: 
+        time_start: "8:00 AM"
+        time_end: "9:00 AM"
+        description: "Sign in and mingle with new friends over some breakfast."
+        moderator:
+        - name: Dr. Joshua S. Campbell
+          position: CEO - Sandhill Geographic
+          link: https://www.linkedin.com/in/joshuascampbell/
+        panelist:
+        - name: Carrie Stokes
+          position: USAID - Director of the GeoCenter
+          link: http://geocenter.digitaldevelopment.org/about-us-0
+        - name: Vivien Deparday
+          position: Lead - Open Data for Resilience Initiative
+          link: https://www.linkedin.com/in/vivien-deparday-31a50214/
+      - title: Welcome
+        start_time: "9:00 AM"
+        end_time: "9:15 AM"
+      - title: Morning Keynote
+        start_time: "9:15 AM"
+        end_time: "9:45 AM"
+        description: "How open source software, VGI/OSM and open ML/AI is transforming NGA's production processes"
+      - title: Open Data & Mapping for Disaster Response & Resilience
+        start_time: "9:45 AM"
+        end_time: "10:45 AM"
