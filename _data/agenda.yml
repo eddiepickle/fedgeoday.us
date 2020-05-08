@@ -1,192 +1,266 @@
-fedgeo_2020_agenda:
-  - date_title: Panel Day
-    date_calendar: 2020-6-11
-    date_week: Thursday
-    session:
-    - title: Online Coffee and Networking 
-      time_start: 8:00 AM
-      time_end: 9:00 AM
-      description: Sign in and mingle with other atendees
-      participant:
-      - role: host (main room)
-        name: TBA
-      - role: co-hosts (main room)
-        name: TBA
-      - role: co-hosts (tech room)
-        name: TBA
-      - role: co-hosts (managment room)
-        name: TBA
-    - title: Welcome
-      time_start: 9:00 AM
-      time_end: 9:10 AM
-      description: Welcome and announcments from the conference organizers
-      participant:
-      - role: host (main room)
-        name: TBA
-      - role: co-host (main room)
-        name: TBA
-      - role: speaker
-        name: Eddie Pickle
-        board_role: Co-Chair
-        position: Senior Director, Insight Solutions
-        organization: Maxar Technologies
-        link: https://www.linkedin.com/in/eddie-pickle-b67545
-    - title: Keynote - TBA
-      time_start: 9:10 AM
-      time_end: 9:45 AM
-      description: TBA
-      participant:
-      - role: host
-        name: TBA
-      - role: co-host
-        name: TBA
-      - role: speaker
-        name: Katie Baynes
-        position: Systems Architect
-        organization: NASA Goddard Space Flight Center
-        link: https://www.linkedin.com/in/kathleenebaynes
-    - title: Panel 1 - Open Mapping to Enable Success
-      time_start: 9:45 AM
-      time_end: 10:45 AM
-      description: Using Open Mapping to Enable Program / Project Success [Including While Working Remotely!]
-      participant:
-      - role: host
-        name: TBA
-      - role: co-host
-        name: TBA
-      - role: co-host
-        name: TBA
-      - role: moderator
-        name: Steve Gillotte
-        position: CEO
-        organization: RGi
-        link: https://www.linkedin.com/in/sgillotte
-      - role: panelist
-        name: Erika Nunez
-        position: Humanitarian Research Analyst
-        organization: INCATech
-        link: https://www.linkedin.com/in/erika-k-nunez
-      - role: panelist
-        name: Alberto Valverde/Will Mortenson/Sean Carasco
-        position: 
-        organization: NGA
-        link: 
-      - role: panelist
-        name: Chris Vaughan
-        position: Geospatial Information Officer
-        organization: FEMA
-        link: https://www.linkedin.com/in/chris-vaughan-7559402
-      - role: panelist
-        name: Maggie Cawley
-        position: Executive Director
-        organization: OpenStreetMap US
-        link: https://www.linkedin.com/in/maggiecawley
-      - role: panelist
-        name: Derald Dudley
-        position: Geographer
-        organization: US DOT
-        link: https://www.linkedin.com/in/derald-dudley-8b055a2
-      - role: panelist
-        name: Josh Sisskind
-        position: GEOINT Professional
-        organization: Maxar
-        link: https://www.linkedin.com/in/joshuasisskind/      
-    - title: Ignite 1 - TBA
-      time_start: 10:45 AM
-      time_end: 10:50 AM
-      description: TBA
-      participant:
-      - role: host
-        name: TBA
-      - role: co-host
-        name: TBA
-      - role: speaker
-        name: TBA
-        position: TBA
-        organization: TBA
-        link: TBA
-    - title: Panel 2 - Response Work Continues During COVID-19 Era
-      time_start: 10:50 AM
-      time_end: 11:50 AM
-      description: TBA
-      participant:
-      - role: host
-        name: TBA
-      - role: co-host
-        name: TBA
-      - role: moderator
-        name:  Bryan Lane
-        position: Director, Data & AI
-        organization: GSA
-        link: https://www.linkedin.com/in/bulletproofbry/
-      - role: panelist
-        name: Tyler Radford
-        position: Executive Director
-        organization: Humanitarian OpenStreetMap
-        link: https://www.linkedin.com/in/tylerradford
-      - role: panelist
-        name: Rhiannan Price
-        position: Director, Sustainable Development Practice
-        organization: Maxar Technologies
-        link: https://www.linkedin.com/in/rhiannan-price
-      - role: panelist
-        name: Jamese D. Sims, PhD
-        position: Senior Physical Scientist
-        organization: NOAA
-        link: https://www.linkedin.com/in/jamese-d-sims-phd-a29a5444/
-      - role: panelist
-        name: Patricia Solis
-        position: Executive Director, Knowledge Exchange for Resilience
-        organization: Arizona State University
-        link: https://www.linkedin.com/in/patricia-solis-asu
-      - role: panelist
-        name: TBA
-        position: TBA
-        organization: JAIC
-        link: TBA
-      - role: panelist
-        name: TBA
-        position: TBA
-        organization: DOE
-        link: TBA
-      - role: panelist
-        name: Ian Shuler
-        position: TBA
-        organization: TBA
-        link: TBA
-    - title: Lightening Session
-    - title: Online Break
-    - title: USG Tech Support for COVID Response, Monitoring & More
-    - title: Lightening Session
-    - title: Online Break
-    - title: Wrap Up
-  - date_title: Hands On Day
-    date_calendar: 2020-6-12
-    date_week: Friday
-    session:
-    - title: Intro to QGIS
-      time_start: "8:00 AM"
-      time_end: "9:00 AM"
-      description: "Sign in and mingle with new friends over some breakfast."
-      moderator:
-      - name: Dr. Joshua S. Campbell
-        position: CEO - Sandhill Geographic
-        link: https://www.linkedin.com/in/joshuascampbell/
-      panelist:
-      - name: Carrie Stokes
-        position: USAID - Director of the GeoCenter
-        link: http://geocenter.digitaldevelopment.org/about-us-0
-      - name: Vivien Deparday
-        position: Lead - Open Data for Resilience Initiative
-        link: https://www.linkedin.com/in/vivien-deparday-31a50214/
-    - title: Intro to Postgres
-      start_time: "9:00 AM"
-      end_time: "9:15 AM"
-    - title: Intro to OSM
-      start_time: "9:15 AM"
-      end_time: "9:45 AM"
-      description: "How open source software, VGI/OSM and open ML/AI is transforming NGA's production processes"
-    - title: Intro to OSGeo
-    - title: QGIS for Data Vizualization
-    - title: Advanced geospatial queries
-
+---
+- session_title: Brake 1 - Online Coffee and Networking 
+  session_description: Sign in and mingle with other atendees
+  session_date_title: Panel Day
+  session_start: 8:00 AM
+  session_end: 9:00 AM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-hosts (main room)
+      name: TBA
+    - role: co-hosts (tech room)
+      name: TBA
+    - role: co-hosts (managment room)
+      name: TBA
+- session_title: Plenary 1 - Welcome
+  session_description: Welcome and announcments from the conference organizers
+  session_date_title: Panel Day
+  session_start: 9:00 AM
+  session_end: 9:10 AM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-hosts
+      name: TBA
+    - role: speaker
+      name: Eddie Pickle
+      position: Senior Director, Insight Solutions
+      organization: Maxar Technologies
+      link: https://www.linkedin.com/in/eddie-pickle-b67545
+- session_title: Keynote 1 - TBA
+  session_description: TBA
+  session_date_title: Panel Day
+  session_start: 9:10 AM
+  session_end: 9:45 AM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+    - role: speaker
+      name: Katie Baynes
+      position: Systems Architect
+      organization: NASA Goddard Space Flight Center
+      link: https://www.linkedin.com/in/kathleenebaynes
+- session_title: Panel 1 - Open Mapping to Enable Success
+  session_description: Using Open Mapping to Enable Program / Project Success
+  session_date_title: Panel Day
+  session_start: 9:45 AM
+  session_end: 10:45 AM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+    - role: co-host
+      name: TBA
+    - role: moderator
+      name: Steve Gillotte
+      position: CEO
+      organization: RGi
+      link: https://www.linkedin.com/in/sgillotte
+    - role: panelist
+      name: Erika Nunez
+      position: Humanitarian Research Analyst
+      organization: INCATech
+      link: https://www.linkedin.com/in/erika-k-nunez
+    - role: panelist
+      name: Alberto Valverde/Will Mortenson/Sean Carasco
+      position: 
+      organization: NGA
+      link: 
+    - role: panelist
+      name: Chris Vaughan
+      position: Geospatial Information Officer
+      organization: FEMA
+      link: https://www.linkedin.com/in/chris-vaughan-7559402
+    - role: panelist
+      name: Maggie Cawley
+      position: Executive Director
+      organization: OpenStreetMap US
+      link: https://www.linkedin.com/in/maggiecawley
+    - role: panelist
+      name: Derald Dudley
+      position: Geographer
+      organization: US DOT
+      link: https://www.linkedin.com/in/derald-dudley-8b055a2
+    - role: panelist
+      name: Josh Sisskind
+      position: GEOINT Professional
+      organization: Maxar
+      link: https://www.linkedin.com/in/joshuasisskind/      
+- session_title: Ignite 1 - TBA
+  session_description: TBA
+  session_date_title: Panel Day
+  session_start: 10:45 AM
+  session_end: 10:50 AM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+    - role: speaker
+      name: TBA
+      position: TBA
+      organization: TBA
+      link: TBA
+- session_title: Panel 2 - Response Work Continues During COVID-19 Era
+  session_description: TBA
+  session_start: 10:50 AM
+  session_end: 11:50 AM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+    - role: moderator
+      name:  Bryan Lane
+      position: Director, Data & AI
+      organization: GSA
+      link: https://www.linkedin.com/in/bulletproofbry/
+    - role: panelist
+      name: Tyler Radford
+      position: Executive Director
+      organization: Humanitarian OpenStreetMap
+      link: https://www.linkedin.com/in/tylerradford
+    - role: panelist
+      name: Rhiannan Price
+      position: Director, Sustainable Development Practice
+      organization: Maxar Technologies
+      link: https://www.linkedin.com/in/rhiannan-price
+    - role: panelist
+      name: Jamese D. Sims, PhD
+      position: Senior Physical Scientist
+      organization: NOAA
+      link: https://www.linkedin.com/in/jamese-d-sims-phd-a29a5444/
+    - role: panelist
+      name: Patricia Solis
+      position: Executive Director, Knowledge Exchange for Resilience
+      organization: Arizona State University
+      link: https://www.linkedin.com/in/patricia-solis-asu
+    - role: panelist
+      name: Ian Shuler
+      position:
+      organization:
+      link:
+- session_title: Ignite 2 - TBA
+  session_description: TBA
+  session_date_title: Panel Day
+  session_start: 11:50 AM
+  session_end: 11:55 AM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: Panel 3 - USG Tech Support for COVID Response, Monitoring & More
+  session_description: TBA
+  session_date_title: Panel Day
+  session_start: 11:55 AM
+  session_end: 12:55 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: Ignite 3 - TBA
+  session_description: TBA
+  session_date_title: Panel Day
+  session_start: 12:55 PM
+  session_end: 1:00 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: Plenary 2 - Wrap Up
+  session_description: TBA
+  session_date_title: Panel Day
+  session_start: 1:00 PM
+  session_end: 1:10 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: morning workshop 1 - Intro to QGIS
+  session_description: TBA
+  session_date_title: Hands On Day
+  session_start: 9:00 AM
+  session_end: 12:00 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: morning workshop 2 - Intro to PostGIS
+  session_description: TBA
+  session_date_title: Hands On Day
+  session_start: 9:00 AM
+  session_end: 12:00 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: morning workshop 3 - Intro to OSM
+  session_description: TBA
+  session_date_title: Hands On Day
+  session_start: 9:00 AM
+  session_end: 12:00 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: morning workshop 4 - TBA
+  session_description: TBA
+  session_date_title: Hands On Day
+  session_start: 9:00 AM
+  session_end: 12:00 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: afternoon workshop 1 - Visualizing Data with QGIS
+  session_description: TBA
+  session_date_title: Hands On Day
+  session_start: 1:00 PM
+  session_end: 4:00 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: afternoon workshop 2 - Advanced spatial queries with PostGIS
+  session_description: TBA
+  session_date_title: Hands On Day
+  session_start: 1:00 PM
+  session_end: 4:00 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: afternoon workshop 3 - OSM community meeting
+  session_description: TBA
+  session_date_title: Hands On Day
+  session_start: 1:00 PM
+  session_end: 4:00 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
+- session_title: afternoon workshop 4 - Oppurtunity Project Training
+  session_description: TBA
+  session_date_title: Hands On Day
+  session_start: 1:00 PM
+  session_end: 4:00 PM
+  session_participant:
+    - role: host
+      name: TBA
+    - role: co-host
+      name: TBA
