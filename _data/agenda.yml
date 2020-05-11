@@ -1,5 +1,8 @@
 ---
-- session_title: Brake 1 - Online Coffee and Networking 
+
+agenda:
+- session_title: Online Coffee and Networking
+  session_type: Brake
   session_description: Sign in and mingle with other atendees
   session_date_title: Panel Day
   session_start: 8:00 AM
@@ -13,7 +16,8 @@
       name: TBA
     - role: co-hosts (managment room)
       name: TBA
-- session_title: Plenary 1 - Welcome
+- session_title: Welcome
+  session_type: Plenary
   session_description: Welcome and announcments from the conference organizers
   session_date_title: Panel Day
   session_start: 9:00 AM
@@ -28,7 +32,8 @@
       position: Senior Director, Insight Solutions
       organization: Maxar Technologies
       link: https://www.linkedin.com/in/eddie-pickle-b67545
-- session_title: Keynote 1 - TBA
+- session_title: Keynote - Katie Baynes
+  session_type: Keynote
   session_description: TBA
   session_date_title: Panel Day
   session_start: 9:10 AM
@@ -43,7 +48,8 @@
       position: Systems Architect
       organization: NASA Goddard Space Flight Center
       link: https://www.linkedin.com/in/kathleenebaynes
-- session_title: Panel 1 - Open Mapping to Enable Success
+- session_title: Open Mapping to Enable Success
+  session_type: Panel
   session_description: Using Open Mapping to Enable Program / Project Success
   session_date_title: Panel Day
   session_start: 9:45 AM
@@ -90,7 +96,8 @@
       position: GEOINT Professional
       organization: Maxar
       link: https://www.linkedin.com/in/joshuasisskind/      
-- session_title: Ignite 1 - TBA
+- session_title: Ignite
+  sesion_type: Ignite
   session_description: TBA
   session_date_title: Panel Day
   session_start: 10:45 AM
@@ -105,7 +112,8 @@
       position: TBA
       organization: TBA
       link: TBA
-- session_title: Panel 2 - Response Work Continues During COVID-19 Era
+- session_title: Response Work Continues During COVID-19 Era
+  session_type: Panel
   session_description: TBA
   session_start: 10:50 AM
   session_end: 11:50 AM
@@ -144,7 +152,8 @@
       position:
       organization:
       link:
-- session_title: Ignite 2 - TBA
+- session_title: Ignite
+  session_type: Ignite
   session_description: TBA
   session_date_title: Panel Day
   session_start: 11:50 AM
@@ -154,7 +163,8 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: Panel 3 - USG Tech Support for COVID Response, Monitoring & More
+- session_title: USG Tech Support for COVID Response, Monitoring & More
+  session_type: Panel
   session_description: TBA
   session_date_title: Panel Day
   session_start: 11:55 AM
@@ -164,7 +174,8 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: Ignite 3 - TBA
+- session_title: Ignite
+  session_type: Ignite
   session_description: TBA
   session_date_title: Panel Day
   session_start: 12:55 PM
@@ -174,7 +185,8 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: Plenary 2 - Wrap Up
+- session_title: Wrap Up
+  session_type: Plenary
   session_description: TBA
   session_date_title: Panel Day
   session_start: 1:00 PM

@@ -7,9 +7,6 @@
 <body id="page-top" class="index">
     {% include header.html %}
     {% include subscribe.html %}
-    {% comment %}{% include about.html %}{% endcomment %}
-    {% comment %}{% include sponsors.html %}{% endcomment %}
-    {% comment %}{% include agenda.html %}{% endcomment %}
     {% include team.html %}
     {% include sponsorship.html %}
     {% include footer.html %}
@@ -24,6 +21,7 @@
     };
     if(document.getElementById('eventbrite-widget-container-53225462792')) {
     window.EBWidgets.createWidget({
+
         // Required
         widgetType: 'checkout',
         eventId: '53225462792',
