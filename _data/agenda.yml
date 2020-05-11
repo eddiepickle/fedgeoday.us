@@ -184,7 +184,7 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: morning workshop 1 - Intro to QGIS
+- session_title: morning concurrent 1 - Intro to QGIS
   session_description: TBA
   session_date_title: Hands On Day
   session_start: 9:00 AM
@@ -194,7 +194,7 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: morning workshop 2 - Intro to PostGIS
+- session_title: morning concurrent 2 - Intro to PostGIS
   session_description: TBA
   session_date_title: Hands On Day
   session_start: 9:00 AM
@@ -204,7 +204,7 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: morning workshop 3 - Intro to OSM
+- session_title: morning concurrent 3 - Intro to OSM
   session_description: TBA
   session_date_title: Hands On Day
   session_start: 9:00 AM
@@ -214,7 +214,7 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: morning workshop 4 - TBA
+- session_title: morning concurrent 4 - Intro to Geoserver
   session_description: TBA
   session_date_title: Hands On Day
   session_start: 9:00 AM
@@ -224,7 +224,7 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: afternoon workshop 1 - Visualizing Data with QGIS
+- session_title: afternoon concurrent 1 - Visualizing Data with QGIS
   session_description: TBA
   session_date_title: Hands On Day
   session_start: 1:00 PM
@@ -234,7 +234,7 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: afternoon workshop 2 - Advanced spatial queries with PostGIS
+- session_title: afternoon concurrent 2 - Advanced spatial queries with PostGIS
   session_description: TBA
   session_date_title: Hands On Day
   session_start: 1:00 PM
@@ -244,7 +244,7 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: afternoon workshop 3 - OSM community meeting
+- session_title: afternoon concurrent 3 - OSM community meeting
   session_description: TBA
   session_date_title: Hands On Day
   session_start: 1:00 PM
@@ -254,7 +254,7 @@
       name: TBA
     - role: co-host
       name: TBA
-- session_title: afternoon workshop 4 - Oppurtunity Project Training
+- session_title: afternoon concurrent 4 - Oppurtunity Project Training
   session_description: TBA
   session_date_title: Hands On Day
   session_start: 1:00 PM
