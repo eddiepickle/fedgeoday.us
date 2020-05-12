@@ -15,9 +15,6 @@
 - title: Open Mapping for Program Success
   start_time: "9:45 AM"
   end_time: "10:45 AM"
-  moderators:
-    - name: Steve Gillotte
-      position: CEO - Reinventing Geospatial, Inc
   panelists:
     - name: Erika Nunez
       position: U.S. Department of State
@@ -31,6 +28,9 @@
       position: Department of Transportation
     - name: Josh Sisskind
       position: Maxar
+  moderators:
+    - name: Steve Gillotte
+      position: CEO - Reinventing Geospatial, Inc
 - title: Ignite
   start_time: "10:45 AM"
   end_time: "10:55 AM"
@@ -38,9 +38,6 @@
   start_time: "10:55 AM"
   end_time: "11:55 AM"
   description: "Open Ecosystems for Humanitarian Assistance / Disaster Response"
-  moderators:
-    - name: Bryan Lane
-      position: General Services Administration (GSA)
   panelists:
     - name: Tyler Radford
       position: Humanitarian OpenStreetMap Team
@@ -52,6 +49,9 @@
       position: Arizona State University
     - name: Katie Picchione
       position: FEMA
+  moderators:
+    - name: Bryan Lane
+      position: General Services Administration (GSA)
 - title: Ignite
   start_time: "11:55 AM"
   end_time: "12:05 PM"
@@ -59,15 +59,15 @@
   start_time: "12:05 PM"
   end_time: "1:05 PM"
   description: "Applications for COVID Response, Monitoring & More"
-  moderators:
-    - name: Daniel Dufour
-      position: CEO - GeoSurge
   panelists:
     - name: Sophia Liu
       position: United States Geological Survey
     - name: Tony Boyles
     - name: Rob Emanuele
       position: Azavea
+  moderators:
+    - name: Daniel Dufour
+      position: CEO - GeoSurge
 - title: Ignite
   start_time: "1:05 PM"
   end_time: "1:15 PM"

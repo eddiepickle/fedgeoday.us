@@ -41,6 +41,13 @@
                                             {% include name.html person=person %}
                                         {% endif %}
 
+                                        {% if session.panelists %}
+                                        <dt>Panelist{% if session.panelists.size > 1 %}s{% endif %}</dt>
+                                        {% for person in session.panelists %}
+                                            {% include name.html person=person %}
+                                        {% endfor %}
+                                        {% endif %}
+
                                         {% if session.moderators %}
                                         <dt>Moderator{% if session.moderators.size > 1 %}s{% endif %}</dt>
                                         {% for person in session.moderators %}
@@ -48,12 +55,6 @@
                                         {% endfor %}
                                         {% endif %}
 
-                                        {% if session.panelists %}
-                                        <dt>Panelist{% if session.panelists.size > 1 %}s{% endif %}</dt>
-                                        {% for person in session.panelists %}
-                                            {% include name.html person=person %}
-                                        {% endfor %}
-                                        {% endif %}
 
                                     </dl>
                                 </td>
