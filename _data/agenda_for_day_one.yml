@@ -8,6 +8,7 @@
 - title: Morning Keynote
   start_time: "9:10 AM"
   end_time: "9:45 AM"
+  description: "Using Open Source to build innovative  programs, enable fully remote work & expose massive data for more effective use"
   keynote:
     name: Katie Baynes
     position: NASA
