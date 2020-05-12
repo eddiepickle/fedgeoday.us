@@ -1,0 +1,31 @@
+<section id="agenda">
+    <div class="container">
+
+        <!-- Day one -->
+
+        <div class="row">
+            <h2 class="section-heading">Panel Day (6/11)</h2>
+            <h3 class="section-subheading text-muted">Discussions about how the Open Ecosystem supports Federal Work</h3>
+        </div>
+        {% assign sessions = site.data.agenda | where: "session_date_title", "Panel Day" %}
+        {% for session in sessions %}
+                <h4>{{ session.session_title }}</h4>
+                <div class="bg-info">
+                    <p>
+                    {{ session.session_start }}<br/>
+                    {{session.session_description}}</p>
+                <p>
+                    {% assign participants = session.session_participant %}
+                    {% for participant in participants %}
+                        {% if participant.position %}
+                            <a href="{{ participant.link }}">{{ participant.name }}</a>
+                            {{participant.position}}
+                            -
+                            {{participant.organization}}<br/>
+                        {% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+        {% endfor %}
+    </div>
+</section>
