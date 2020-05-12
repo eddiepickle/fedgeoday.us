@@ -1,0 +1,6 @@
+<a {% if person.link %}href="{{person.link}}"{% endif %}>
+    <div class="person-name">
+        {{person.name}}<br />
+        {% if person.position %}{{person.position}}{% endif %}
+    </div>
+</a> 

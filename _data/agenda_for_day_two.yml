@@ -1,0 +1,30 @@
+- title: Check-In
+  start_time: "8:00 AM"
+  end_time: "9:00 AM"
+  description: "Open virtual reception room for group chat. Volunteers compile and sort new questions."
+- title: Welcome
+  start_time: "9:00 AM"
+  end_time: "9:10 AM"
+- title: Workshops
+  start_time: "9:10 AM"
+  end_time: "Noon"
+  tracks:
+    - title: GeoServer Training
+      trainers:
+        - name: Luis Bermudez
+          position: GeoSolutions
+    - title: PostgreSQL and PostGIS
+      trainers:
+        - name: "Crunchy Data<br/>"
+- title: Break
+  start_time: "12:00 PM"
+  end_time: "1:00 PM"
+- title: Collaboration Session 1
+  description: The Opportunity Project
+  speakers:
+    - name: Dominica Zhu
+    - name: Drew Zachary
+- title: Wrap Up
+  speakers:
+    - name: Eddie Pickle
+      position: Maxar

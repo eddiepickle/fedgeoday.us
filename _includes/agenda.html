@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Agenda</h2>
-                <h3 class="section-subheading text-muted">Full schedule for the day</h3>
+                <h2 class="section-heading">Day 1 Agenda</h2>
+                <h3 class="section-subheading text-muted">Full Schedule for Day 1 (June 11th)</h3>
             </div>
         </div>
         <div class="row">
@@ -25,474 +25,136 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td width="20%">
-                                <dl>
-                                    <dt>8:00 AM<br />-<br />9:00 AM</dt>
-                                </dl>
-                            </td>
-                            <td width="80%">
-                                <dl>
-                                    <dt>Registration and Breakfast</dt>
-                                    <dd>Sign in and mingle with new friends over some breakfast.</dd>
-                                </dl>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <dl><dt>9:00 AM<br />-<br />9:15 AM</dt></dl>
-                            </td>
-                            <td style="vertical-align: middle">
-                                <dl><dt>Welcome</dt></dl>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <dl><dt>9:15 AM<br />-<br />9:45 AM</dt></dl>
-                            </td>
-                            <td>
-                                <dl class="text-center">
-                                    <dt>Morning Keynote</dt>
-                                    <dt>How open source software, VGI/OSM and open ML/AI is transforming NGA's
-                                        production processes</dt>
-                                    <a href="https://www.linkedin.com/in/carter-christopher/">
-                                        <dd class="person-name">
-                                            Dr. Carter Christopher<br />
-                                            Director of Data Integration and Automation Office - National
-                                            Geospatial-Intelligence Agency (NGA)
-                                        </dd>
-                                    </a>
-                                </dl>
+                        {% for session in site.data.agenda_for_day_one %}
+                            <tr>
+                                <td width="20%">
+                                    <dl>
+                                        <dt>{{session.start_time}}<br />-<br />{{session.end_time}}</dt>
+                                    </dl>
+                                </td>
+                                <td width="80%">
+                                    <dl class="text-center">
+                                        <dt>{{session.title}}</dt>
+                                        {% if session.description %}<dt>{{session.description}}</dt>{% endif %}
+                                        {% if session.keynote %}
+                                            {% assign person = session.keynote %}
+                                            {% include name.html person=person %}
+                                        {% endif %}
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <dl><dt>9:45 AM<br />-<br />10:45 AM</dt></dl>
-                            </td>
-                            <td>
-                                <dl class="text-center">
-                                    <dt>Open Data &amp; Mapping for Disaster Response & Resilience</dt>
-                                    <dt>Moderator</dt>
-                                    <a href="https://www.linkedin.com/in/joshuascampbell/">
-                                        <dd class="person-name">
-                                            Dr. Joshua S. Campbell<br />
-                                            CEO - Sand Hill Geographic
-                                        </dd>
-                                    </a>
-                                    <dt>Panelists</dt>
-                                    <a href="http://geocenter.digitaldevelopment.org/about-us-0">
-                                        <dd class="person-name">
-                                            Carrie Stokes<br />
-                                            USAID - Director of the GeoCenter
-                                        </dd>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/vivien-deparday-31a50214/">
-                                        <dd class="person-name">
-                                            Vivien Deparday<br />
-                                            Lead - Open Data for Resilience Initiative (OpenDRI)<br />
-                                            Disaster Risk Management Specialist - World Bank
-                                        </dd>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/chris-vaughan-7559402/">
-                                        <dd class="person-name">
-                                            Chris Vaughan<br />
-                                            GIO - Federal Emergency Management Agency (FEMA)
-                                        </dd>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/ryan-lash-4559985/">
-                                        <dd class="person-name">
-                                            Dr. Ryan Lash<br />
-                                            Health Scientist - Division of Global Migration & Quarantine, Centers for
-                                            Disease Control (CDC)
-                                        </dd>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/gregmaly/">
-                                        <dd class="person-name">
-                                            Greg Maly<br />
-                                            Products and Data Science Manager - Center for Digital Acceleration, DAI
-                                        </dd>
-                                    </a>
-                                </dl>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <dl><dt>10:45 AM<br />-<br />11:00 AM</dt></dl>
-                            </td>
-                            <td style="vertical-align: middle">
-                                <dl><dt>Morning Break</dt></dl>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <dl><dt>11:00 AM<br />-<br />12:00 PM</dt></dl>
-                            </td>
-                            <td>
-                                <dl class="text-center">
-                                    <dt>Open Science & AI/ML - How Federal City Players are Growing the Ecosystem</dt>
-                                    <dt>Moderator</dt><a href="https://www.linkedin.com/in/ryan-lewis-3b429121/">
-                                        <dd class="person-name">
-                                            Ryan Lewis<br />
-                                            Vice President & Deputy Director - IQT CosmiQ Works
-                                        </dd>
-                                    </a>
-                                    <dt>Panelists</dt>
-                                    <a href="https://www.linkedin.com/in/benjamintuttle/">
-                                        <dd class="person-name">
-                                            Dr. Ben Tuttle<br />
-                                            Director of Outposts - National Geospatial-Intelligence Agency
-                                        </dd>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/abarciauskas/">
-                                        <dd class="person-name">
-                                            Aimee Barciauskas<br />
-                                            Data Engineer - Development Seed
-                                        </dd>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/adamestrada/">
-                                        <dd class="person-name">
-                                            Adam Estrada<br />
-                                            Director - Radiant Solutions
-                                        </dd>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/joe-morrison-0123154b/">
-                                        <dd class="person-name">
-                                            Joe Morrison<br />
-                                            Business Development - Azavea
-                                        </dd>
-                                    </a>
-                                </dl>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <dl><dt>12:00 PM<br />-<br />1:00 PM</dt></dl>
-                            </td>
-                            <td style="vertical-align: middle">
-                                <dl>
-                                    <dt>Lunch</dt>
-                                    <dt>Afternoon Keynote</dt>
-                                    <dt>Promoting Government, Industry and Academic Collaboration to Advance Geographic
-                                        Knowledge, Applications and Technologies</dt>
-                                    <a href="https://www.linkedin.com/in/christopher-tucker-5595689/">
-                                        <dd class="person-name">
-                                            Dr. Christopher Tucker<br />
-                                            Chairman - American Geographical Society
-                                        </dd>
-                                    </a>
-                                </dl>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" style="padding:0px;">
-                                <table class="nomargin" style="border-right: none !important;" width="100%">
-                                    <tbody>
-                                        <tr>
-                                            <th width="20%"></th>
-                                            <th width="40%" style="border-bottom:grey solid 2px;border-top:grey solid 2px;">
-                                                <dl><dt>Management Track</dt></dl>
-                                            </th>
-                                            <th width="40%" style="border-bottom:grey solid 2px;border-top:grey solid 2px;">
-                                                <dl><dt>Technical Track</dt></dl>
-                                            </th>
-                                        </tr>
-                                        <tr>
-                                            <td valign="top">
-                                                <dl><dt>1:00 PM<br />-<br />1:45 PM</dt></dl>
-                                            </td>
-                                            <td class="td-half">
-                                                <dl>
-                                                    <dt>
-                                                        Federal Policy Driving Open<br />
-                                                        Ecosystems & Innovation
-                                                    </dt>
-                                                    <dt>Moderator</dt>
-                                                    <a href="https://www.linkedin.com/in/bryan-lane-7ab4a26b/">
-                                                        <dd class="person-name">
-                                                            Bryan Lane<br />
-                                                            Founder - Data XD<br />
-                                                            &nbsp;
-                                                        </dd>
-                                                    </a>
-                                                    <dt>Panelists</dt>
-                                                    <a href="https://www.linkedin.com/in/ivan-deloatch-3a3a855/">
-                                                        <dd class="person-name">
-                                                            Ivan DeLoatch<br />
-                                                            Executive Director - FGDC
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/jjediny/">
-                                                        <dd class="person-name">
-                                                            John Jediny<br />
-                                                            Chief Engineer - Data.gov
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/keithmasback/">
-                                                        <dd class="person-name">
-                                                            Keith Masback<br />
-                                                            Former Chief Executive Officer - United States Geospatial
-                                                            Intelligence Foundation (USGIF)
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/ianschuler/">
-                                                        <dd class="person-name">
-                                                            Ian Schuler<br />
-                                                            CEO - Development Seed
-                                                        </dd>
-                                                    </a>
-                                                </dl>
-                                            </td>
-                                            <td class="td-half">
-                                                <dl>
-                                                    <dt>
-                                                        Open Source Software:<br />
-                                                        What tools are hot or not
-                                                    </dt>
-                                                    <dt>Moderator</dt>
-                                                    <a href="https://www.linkedin.com/in/dmitry-didovicher-pmp-csm-23a8a850/">
-                                                        <dd class="person-name">
-                                                            Dmitry Didovicher<br />
-                                                            Director GIS Services Division - Crunchy Data Solutions,
-                                                            Inc.
-                                                        </dd>
-                                                    </a>
-                                                    <dt>Panelists</dt>
-                                                    <a href="https://www.linkedin.com/in/benjamintuttle/">
-                                                        <dd class="person-name">
-                                                            Dr. Ben Tuttle<br />
-                                                            Director of Outposts - National Geospatial-Intelligence
-                                                            Agency
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/rob-emanuele-15852912/">
-                                                        <dd class="person-name">
-                                                            Rob Emanuele<br />
-                                                            VP of Research - Azavea
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/thomas-ingold-33b9237/">
-                                                        <dd class="person-name">
-                                                            Thomas Ingold<br />
-                                                            Chief Technology Officer - Boundless Spatial, Inc.
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/guidostein/">
-                                                        <dd class="person-name">
-                                                            Guido Stein<br />
-                                                            President, OSGeo.US Local Chapter
-                                                        </dd>
-                                                    </a>
-                                                </dl>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td valign="top">
-                                                <dl><dt>1:45 PM<br />-<br />2:30 PM</dt></dl>
-                                            </td>
-                                            <td class="td-half">
-                                                <dl>
-                                                    <dt>GeoPlatform - Delivering Open...</dt>
-                                                    <dt>Moderator</dt>
-                                                    <a href="https://www.linkedin.com/in/thomas-dabolt-3578486/">
-                                                        <dd class="person-name">
-                                                            Tod Dabolt<br />
-                                                            Director of Information Management - U.S. Department of the
-                                                            Interior
-                                                        </dd>
-                                                    </a>
-                                                    <dt>Panelists</dt>
-                                                    <a href="https://www.linkedin.com/in/joel-schlagel-86a8901a/">
-                                                        <dd class="person-name">
-                                                            Joel Schlagel<br />
-                                                            Physical Scientist - US Army Engineer Institute for Water
-                                                            Resources
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/elizabeth-lyon-97134310/">
-                                                        <dd class="person-name">
-                                                            Elizabeth Lyon<br />
-                                                            Senior GEOINT Authority: Geography and Cartography - NGA
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/chris-vaughan-7559402/">
-                                                        <dd class="person-name">
-                                                            Chris Vaughan<br />
-                                                            GIO - Federal Emergency Management Agency (FEMA)
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/william-johnson-38871312/">
-                                                        <dd class="person-name">
-                                                            Bill Johnson<br />
-                                                            Carpe Geo Evangelist - Applied Geographics, Inc.
-                                                        </dd>
-                                                    </a>
-                                                </dl>
-                                            </td>
-                                            <td class="td-half">
-                                                <dl>
-                                                    <dt>Crowd Sourcing &amp; Open Mapping</dt>
-                                                    <dt>Moderator</dt>
-                                                    <a href="https://www.linkedin.com/in/joshuasisskind/">
-                                                        <dd class="person-name">
-                                                            Joshua Sisskind<br />
-                                                            GEOINT Professional - Radiant Solutions
-                                                        </dd>
-                                                    </a>
-                                                    <dt>Panelists</dt>
-                                                    <a href="https://www.linkedin.com/in/will-mortenson-97283741/">
-                                                        <dd class="person-name">
-                                                            Will Mortenson<br />
-                                                            Worker Bee - US Government
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/chad-blevins-5590b352/">
-                                                        <dd class="person-name">
-                                                            Chad Blevins<br />
-                                                            Geographer<br />
-                                                            YouthMappers
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/mikelmaron/">
-                                                        <dd class="person-name">
-                                                            Mikel Maron<br />
-                                                            Board Member - OpenStreetMap Foundation
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/tylerradford/">
-                                                        <dd class="person-name">
-                                                            Tyler Radford<br />
-                                                            Executive Director - Humanitarian OpenStreetMap Team
-                                                        </dd>
-                                                    </a>
-                                                    <a href="https://www.linkedin.com/in/sophiabliu/">
-                                                        <dd class="person-name">
-                                                            Dr. Sophia B. Liu<br />
-                                                            InnovatioNinja - U.S. Geological Survey (USGS)
-                                                        </dd>
-                                                    </a>
-                                                </dl>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td valign="top">
-                                                <dl><dt>2:30 PM<br />-<br />2:45 PM</dt></dl>
-                                            </td>
-                                            <td class="td-half" style="vertical-align: middle" colspan="2">
-                                                <dl><dt>Break</dt></dl>
-                                            </td>
+                                        {% if session.moderators %}
+                                        <dt>Moderator{% if session.moderators.size > 1 %}s{% endif %}</dt>
+                                        {% for person in session.moderators %}
+                                            {% include name.html person=person %}
+                                        {% endfor %}
+                                        {% endif %}
 
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </td>
-                        </tr>
+                                        {% if session.panelists %}
+                                        <dt>Panelist{% if session.panelists.size > 1 %}s{% endif %}</dt>
+                                        {% for person in session.panelists %}
+                                            {% include name.html person=person %}
+                                        {% endfor %}
+                                        {% endif %}
+
+                                    </dl>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Day 2 Agenda</h2>
+                <h3 class="section-subheading text-muted">Full Schedule for Day 2 (June 12th)</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-container flex-column">
+                <table class="table table-bordered table-striped" width="100%">
+                    <thead>
                         <tr>
-                            <td valign="top">
-                                <dl><dt>2:45 PM<br />-<br />3:30 PM</dt></dl>
-                            </td>
-                            <td>
-                                <dl class="text-center">
-                                    <dt>The Opportunity Project</dt>
-                                    <dt>Moderator</dt>
-                                    <a href="https://www.linkedin.com/in/drew-zachary-28898283/">
-                                        <dd class="person-name">
-                                            Drew Zachary<br>
-                                            Director - The Opportunity Project<br>
-                                            Co-director - Census Open Innovation Labs
-                                        </dd>
-                                    </a>
-                                    <dt>Panelists</dt>
-                                    <a href="https://www.linkedin.com/in/carlpucci/">
-                                        <dd class="person-name">
-                                            Carl Pucci<br />
-                                            COO - Datel Ovela
-                                        </dd>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/lorena-molina-irizarry-a4006539/">
-                                        <dd class="person-name">
-                                            Lorena Molina-Irizarry<br />
-                                            Director of Operations - Census Open Innovation Labs
-                                        </dd>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/jaymes-cloninger-a7a4313/">
-                                        <dd class="person-name">
-                                            Jaymes Cloninger<br />
-                                            Managing Director - Motivf
-                                        </dd>
-                                    </a>
+                            <th>
+                                <dl>
+                                    <dt>Time</dt>
                                 </dl>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="top">
-                                <dl><dt>3:30 PM<br />-<br />4:00 PM</dt></dl>
-                            </td>
-                            <td>
-                                <dl class="text-center">
-                                    <dt>Lightning Talks</dt>
-                                    <dt class="ltalk">Open Source Geocoding</dt>
-                                    <a href="https://www.linkedin.com/in/ashley-antonides-7399234/">
-                                        <dd class="person-name">
-                                            Dr. Ashley Antonides<br />
-                                            R&D Scientist - Radiant Solutions
-                                        </dd>
-                                    </a>
-                                    <dt class="ltalk">What is Code.gov?</dt>
-                                    <a href="https://www.linkedin.com/in/danieljdufour/">
-                                        <dd class="person-name">
-                                            Daniel Dufour<br />
-                                            Technologist & Entrepreneur
-                                        </dd>
-                                    </a>
-                                    <dt class="ltalk">Global Population Mapping</dt>
-                                    <a href="https://www.linkedin.com/in/tomfitzwater/">
-                                        <dd class="person-name">
-                                            Tom Fitzwater<br />
-                                            Senior Geospatial Analyst - U.S. Census Bureau
-                                        </dd>
-                                    </a>
-                                    <dt class="ltalk">MappingDC</dt>
-                                    <a href="https://www.linkedin.com/in/openbrian/">
-                                        <dd class="person-name">
-                                            Brian DeRocher<br />
-                                            Software Engineer
-                                        </dd>
-                                    </a>
-                                    <dt class="ltalk">Using Lidar Data for Species Habitat Assessment</dt>
-                                    <a href="https://www.linkedin.com/in/doug-newcomb-791432a/">
-                                        <dd class="person-name">
-                                            Doug Newcomb<br />
-                                            Cartographer at USFWS
-                                        </dd>
-                                    </a>
-                                    <dt class="ltalk">What is OSGeo.US?</dt>
-                                    <a href="https://www.linkedin.com/in/guidostein/">
-                                        <dd class="person-name">
-                                            Guido Stein<br />
-                                            Geospatial Data Alchemist - Applied Geographics, Inc.<br />
-                                            President - OSGeo US
-                                        </dd>
-                                    </a>
+                            </th>
+                            <th>
+                                <dl>
+                                    <dt>Sessions</dt>
                                 </dl>
-                            </td>
+                            </th>
                         </tr>
-                        <tr>
-                            <td valign="top">
-                                <dl><dt>4:00 PM<br />-<br />4:15 PM</dt></dl>
-                            </td>
-                            <td style='vertical-align: middle'>
-                                <dl><dt>Closing Remarks</dt></dl>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="top">
-                                <dl><dt>4:15 PM<br />-<br />5:00 PM</dt></dl>
-                            </td>
-                            <td style='vertical-align: middle'>
-                                <dl><dt>Happy Hour</dt></dl>
-                            </td>
-                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for session in site.data.agenda_for_day_two %}
+                            <tr>
+                                <td width="20%">
+                                    <dl>
+                                        <dt>{{session.start_time}}<br />-<br />{{session.end_time}}</dt>
+                                    </dl>
+                                </td>
+                                <td width="80%">
+                                    <dl class="text-center">
+                                        <dt>{{session.title}}</dt>
+                                        {% if session.description %}<dt>{{session.description}}</dt>{% endif %}
+                                        {% if session.keynote %}
+                                            {% assign person = session.keynote %}
+                                            {% include name.html person=person %}
+                                        {% endif %}
+
+                                        {% if session.moderators %}
+                                        <dt>Moderator{% if session.moderators.size > 1 %}s{% endif %}</dt>
+                                        {% for person in session.moderators %}
+                                            {% include name.html person=person %}
+                                        {% endfor %}
+                                        {% endif %}
+
+                                        {% if session.speakers %}
+                                        <dt>Speaker{% if session.speakers.size > 1 %}s{% endif %}</dt>
+                                        {% for person in session.speakers %}
+                                            {% include name.html person=person %}
+                                        {% endfor %}
+                                        {% endif %}
+
+                                        {% if session.panelists %}
+                                        <dt>Panelist{% if session.panelists.size > 1 %}s{% endif %}</dt>
+                                        {% for person in session.panelists %}
+                                            {% include name.html person=person %}
+                                        {% endfor %}
+                                        {% endif %}
+                                    </dl>
+                                    {% if session.tracks %}
+                                    <table style="width: 100%">
+                                        <tbody>
+                                            <tr>
+                                                {% for subsession in session.tracks %}
+                                                <td class="td-half" style="width: 50%">
+                                                    <dl>
+                                                        <dt>{{subsession.title}}</dt>
+                                                        {% if subsession.trainers %}
+                                                        <dt>Trainer{% if subsession.trainers.size > 1 %}s{% endif %}</dt>
+                                                        {% for person in subsession.trainers %}
+                                                            {% include name.html person=person %}
+                                                        {% endfor %}
+                                                        {% endif %}                                                        
+                                                    </dl>
+                                                </td>
+                                                {% endfor %}
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    {% endif %}                               
+                                </td>
+                            </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
             </div>
