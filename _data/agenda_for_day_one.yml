@@ -19,12 +19,14 @@
     - name: Steve Gillotte
       position: CEO - Reinventing Geospatial, Inc
   panelists:
+    - name: Erika Nunez
+      position: U.S. Department of State
     - name: Will Mortenson
       position: NGA
-    - name: Chris Vaughan
+    - name: Omar Shafrir
       position: FEMA
     - name: Maggie Cawley
-      position: OSM US
+      position: OpenStreetMap US
     - name: Derald Dudley
       position: Department of Transportation
     - name: Josh Sisskind
@@ -45,9 +47,11 @@
     - name: Rhiannan Price
       position: Maxar Open Data Program
     - name: Dr. Jamese Sims
-      position: NOAA
-    - name: Dr. Patricia Solis 
+      position: National Oceanic and Atmospheric Administration (NOAA)
+    - name: Dr. Patricia Solis
       position: Arizona State University
+    - name: Katie Picchione
+      position: FEMA
 - title: Ignite
   start_time: "11:55 AM"
   end_time: "12:05 PM"
@@ -70,4 +74,3 @@
 - title: Day 1 Wrap Up
   start_time: "1:15 PM"
   end_time: "1:30 PM"
-
