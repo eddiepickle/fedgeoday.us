@@ -1,12 +1,7 @@
 _name,lowercase_name,level,_url,img
-OSGeo US,osgeo us,host,https://osgeo.us/,osgeo-us.png
-Radiant Solutions,radiant_solutions,gold,https://www.radiantsolutions.com/,radiant-solutions.png
+Azavea,azavea,gold,https://www.locationtech.org/,azavea.png
 Crunchy Data,crunchy data,gold,https://www.crunchydata.com/,crunchy.png
-LocationTech,locationtech,silver,https://www.locationtech.org/,locationtech.png
-Azavea,azavea,silver,https://www.locationtech.org/,azavea.png
-CCRi,ccri,silver,http://www.ccri.com/,ccri.jpg
-Cosmiq Works,cosmiq works,silver,http://www.cosmiqworks.org/,cosmiq.png
-Applied Geographics,applied geographics,bronze,https://www.appgeo.com/,appgeo.png
-Thermopylae,thermopylae,bronze,http://www.t-sciences.com/,t-sciences.png
-Reinventing Geospatial,reinventing geospatial,bronze,http://www.rgi-corp.com/,rgi.png
-Prominent Edge,prominent edge,bronze,http://prominentedge.com/,prominent-edge.png
+GeoSurge,geosurge,bronze,https://github.com/GeoSurge,geosurge.jpg
+Maxar,maxar,platinum,https://www.maxar.com/,maxar.svg
+OSGeo US,osgeo us,host,https://osgeo.us/,osgeo-us.png
+Reinventing Geospatial,reinventing geospatial,gold,http://www.rgi-corp.com/,rgi.png
