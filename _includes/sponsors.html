@@ -14,11 +14,31 @@
             </div>
             {% endfor %}
         </div>
+
+        {% assign platinum_sponsors = site.data.sponsors | where: "level","platinum" | sort: 'lowercase_name' %}
+	{% if platinum_sponsors.size > 0 %}
+        <div class="row">
+            <h2 class="section-heading">Platinum Sponsors</h2>
+        </div>
+        <div class="row">
+            {% for sponsor in platinum_sponsors %}
+            <div class="col-md-6 centerly col-platinum">
+                <a href="{{sponsor._url}}">
+                    <img src="assets/img/sponsors/{{sponsor.img}}" class="img-responsive img-platinum" alt="{{sponsor._name}} Logo">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+	{% endif %}
+ 
+
+
+        {% assign gold_sponsors = site.data.sponsors | where: "level","gold" | sort: 'lowercase_name' %}
+	{% if gold_sponsors.size > 0 %}
         <div class="row">
             <h2 class="section-heading">Gold Sponsors</h2>
         </div>
         <div class="row">
-            {% assign gold_sponsors = site.data.sponsors | where: "level","gold" | sort: 'lowercase_name' %}
             {% for sponsor in gold_sponsors %}
             <div class="col-md-6 centerly col-gold">
                 <a href="{{sponsor._url}}">
@@ -27,11 +47,15 @@
             </div>
             {% endfor %}
         </div>
+	{% endif %}
+
+
+        {% assign silver_sponsors = site.data.sponsors | where: "level","silver" | sort: 'lowercase_name' %}
+	{% if silver_sponsors.size > 0 %}
         <div class="row">
             <h2 class="section-heading">Silver Sponsors</h2>
         </div>
         <div class="row">
-            {% assign silver_sponsors = site.data.sponsors | where: "level","silver" | sort: 'lowercase_name' %}
             {% for sponsor in silver_sponsors %}
             <div class="col-md-4 centerly col-silver">
                 <a href="{{sponsor._url}}">
@@ -40,11 +64,13 @@
             </div>
             {% endfor %}
         </div>
+	{% endif %} 
+
+        {% assign bronze_sponsors = site.data.sponsors | where: "level","bronze" | sort: 'lowercase_name' %}
         <div class="row">
             <h2 class="section-heading">Bronze Sponsors</h2>
         </div>
         <div class="row">
-            {% assign bronze_sponsors = site.data.sponsors | where: "level","bronze" | sort: 'lowercase_name' %}
             {% for sponsor in bronze_sponsors %}
             <div class="col-sm-2 col-bronze">
                 <a href="{{sponsor._url}}">
@@ -53,5 +79,6 @@
             </div>
             {% endfor %}
         </div>
+
     </div>
 </section>
