@@ -48,3 +48,6 @@ Topics will include:
 Thanks to our generous sponsors, registration for [FedGeoDay](https://fedgeo.us/) **Panel Day IS FREE** for attendees who work in government, military, educational, and non-profit organizations. It is also free for students. For all other attendees the fee to attend will be $20.
 
 Proceeds from FedGeoDay go to OSGEO US to fund future events and to grow the adoption of Free and Open Source Software for Geospatial through training and collaboration activities.
+
+**Thanks to our sponsors**
+![OSGeo US Chapter](https://fedgeo.us/assets/img/sponsors/osgeo-us.png)
