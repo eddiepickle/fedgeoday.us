@@ -12,20 +12,20 @@ FedGeoDay is the geospatial technology event for users, managers, and decision-m
 
 FedGeoDay convenes federal agencies, NGOs, technologists, educators and others who work with open ecosystem tools and communities including:
 
-- Free and Open Source communities  like the Open Source Geospatial Foundation (OSGeo)
-- Global collaborative mapping mapping communities like OpenStreetMap
-- AI and Machine Learning Initiatives like SpaceNet and theur ground breaking open science challenges
+- Free and Open Source software communities like the Open Source Geospatial Foundation (OSGeo)
+- Global collaborative mapping communities like OpenStreetMap
+- AI and Machine Learning Initiatives like SpaceNet and other ground breaking open science challenges
 
 
 **Katie Baynes of NASA will Keynote** the first day discussing on how NASA uses Open Source Software and Cloud Architectures to:
 
 - Build more effective and scalable programs
-- Create a virtually seamless adjustment to fully remote work among large geographically distributed teams
-- Advance open and more scalable data formats like STAC to expose their data for more effective use
+- Create a virtually seamless adjustment to fully remote work among large, geographically distributed teams
+- Advance open and more scalable data formats like STAC to expose data for more effective use
 
 **Panel Day - June 11th**
 
-Panel Day has a rich program of panel discussions featuring experts from NGA, NOAA, USGS, GSA/JAIC, FEMA, OpenStreetMap US, Maxar, and others. 
+Panel Day has a rich program of presentations and panel discussions featuring experts from NGA, NOAA, USGS, JAIC, GSA, FEMA, OpenStreetMap US, Maxar, and others. 
 
 Topics will include:
 
@@ -35,7 +35,7 @@ Topics will include:
 
 **Hands-on Day - June 12th**
 
-Hands-on Day opens up many learning oppurtunites which include open source software traininga, online mapathons, and more.
+Hands-on Day opens up many learning oppurtunites which include open source software training, online mapathons, and more.
 
 Topics will include:
 
