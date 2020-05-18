@@ -1,13 +1,15 @@
 <!-- Agenda Section -->
 <section id="agenda">
     <div class="container">
-        <div class="row">
+        <div id="agenda_title" class="row col-lg-12 text-center">
+            <h2 class="section-heading">Agenda</h2>
+        </div>
+        <div id="agenda_pd_title" class="row col-lg-12 text-center">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Day 1 Agenda</h2>
-                <h3 class="section-subheading text-muted">Full Schedule for Day 1 (June 11th)</h3>
+                <h3 class="bg-regular-gray">Panel Day<br />Thursday, 6/11/2020</h3>
             </div>
         </div>
-        <div class="row">
+        <div id="agenda_pd_schedule" class="row">
             <div class="flex-container flex-column">
                 <table class="table table-bordered table-striped" width="100%">
                     <thead>
@@ -26,58 +28,48 @@
                     </thead>
                     <tbody>
                         {% for session in site.data.agenda_for_day_one %}
-                            <tr>
-                                <td width="20%">
-                                    <dl>
-                                        <dt>{{session.start_time}}<br />-<br />{{session.end_time}}</dt>
-                                    </dl>
-                                </td>
-                                <td width="80%">
-                                    <dl class="text-center">
-                                        <dt>{{session.title}}</dt>
-                                        {% if session.description %}<dt>{{session.description}}</dt>{% endif %}
-                                        {% if session.keynote %}
-                                            {% assign person = session.keynote %}
-                                            {% include name.html person=person %}
-                                        {% endif %}
+                        <tr>
+                            <td width="20%">
+                                <dl>
+                                    <dt>{{session.start_time}}<br />-<br />{{session.end_time}}</dt>
+                                </dl>
+                            </td>
+                            <td width="80%">
+                                <dl class="text-center">
+                                    <dt>{{session.title}}</dt>
+                                    {% if session.description %}<dt>{{session.description}}</dt>{% endif %}
+                                    {% if session.keynote %}
+                                    {% assign person = session.keynote %}
+                                    {% include name.html person=person %}
+                                    {% endif %}
 
-                                        {% if session.panelists %}
-                                        <dt>Panelist{% if session.panelists.size > 1 %}s{% endif %}</dt>
-                                        {% for person in session.panelists %}
-                                            {% include name.html person=person %}
-                                        {% endfor %}
-                                        {% endif %}
+                                    {% if session.panelists %}
+                                    <dt>Panelist{% if session.panelists.size > 1 %}s{% endif %}</dt>
+                                    {% for person in session.panelists %}
+                                    {% include name.html person=person %}
+                                    {% endfor %}
+                                    {% endif %}
 
-                                        {% if session.moderators %}
-                                        <dt>Moderator{% if session.moderators.size > 1 %}s{% endif %}</dt>
-                                        {% for person in session.moderators %}
-                                            {% include name.html person=person %}
-                                        {% endfor %}
-                                        {% endif %}
-
-
-                                    </dl>
-                                </td>
-                            </tr>
+                                    {% if session.moderators %}
+                                    <dt>Moderator{% if session.moderators.size > 1 %}s{% endif %}</dt>
+                                    {% for person in session.moderators %}
+                                    {% include name.html person=person %}
+                                    {% endfor %}
+                                    {% endif %}
+                                </dl>
+                            </td>
+                        </tr>
                         {% endfor %}
                     </tbody>
                 </table>
             </div>
         </div>
-    </div>
-
-
-
-
-
-    <div class="container">
-        <div class="row">
+        <div id="agenda_hd_title" class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Day 2 Agenda</h2>
-                <h3 class="section-subheading text-muted">Full Schedule for Day 2 (June 12th)</h3>
+                <h3 class="bg-regular-gray">Hands-On Day<br />Thursday, 6/11/2020</h3>
             </div>
         </div>
-        <div class="row">
+        <div id="agenda_hd_schedule" class="row">
             <div class="flex-container flex-column">
                 <table class="table table-bordered table-striped" width="100%">
                     <thead>
@@ -96,65 +88,23 @@
                     </thead>
                     <tbody>
                         {% for session in site.data.agenda_for_day_two %}
-                            <tr>
-                                <td width="20%">
-                                    <dl>
-                                        <dt>{{session.start_time}}<br />-<br />{{session.end_time}}</dt>
-                                    </dl>
-                                </td>
-                                <td width="80%">
-                                    <dl class="text-center">
-                                        <dt>{{session.title}}</dt>
-                                        {% if session.description %}<dt>{{session.description}}</dt>{% endif %}
-                                        {% if session.keynote %}
-                                            {% assign person = session.keynote %}
-                                            {% include name.html person=person %}
-                                        {% endif %}
-
-                                        {% if session.moderators %}
-                                        <dt>Moderator{% if session.moderators.size > 1 %}s{% endif %}</dt>
-                                        {% for person in session.moderators %}
-                                            {% include name.html person=person %}
-                                        {% endfor %}
-                                        {% endif %}
-
-                                        {% if session.speakers %}
-                                        <dt>Speaker{% if session.speakers.size > 1 %}s{% endif %}</dt>
-                                        {% for person in session.speakers %}
-                                            {% include name.html person=person %}
-                                        {% endfor %}
-                                        {% endif %}
-
-                                        {% if session.panelists %}
-                                        <dt>Panelist{% if session.panelists.size > 1 %}s{% endif %}</dt>
-                                        {% for person in session.panelists %}
-                                            {% include name.html person=person %}
-                                        {% endfor %}
-                                        {% endif %}
-                                    </dl>
-                                    {% if session.tracks %}
-                                    <table style="width: 100%">
-                                        <tbody>
-                                            <tr>
-                                                {% for subsession in session.tracks %}
-                                                <td class="td-half" style="width: 50%">
-                                                    <dl>
-                                                        <dt>{{subsession.title}}</dt>
-                                                        {% if subsession.trainers %}
-                                                        <dt>Trainer{% if subsession.trainers.size > 1 %}s{% endif %}</dt>
-                                                        {% for person in subsession.trainers %}
-                                                            {% include name.html person=person %}
-                                                        {% endfor %}
-                                                        {% endif %}                                                        
-                                                    </dl>
-                                                </td>
-                                                {% endfor %}
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    {% endif %}                               
-                                </td>
-                            </tr>
+                        <tr>
+                            <td width="20%">
+                                <dl>
+                                    <dt>{{session.start_time}}<br />-<br />{{session.end_time}}</dt>
+                                </dl>
+                            </td>
+                            <td width="80%">
+                                <dl class="text-center">
+                                    <dt class="concurrent-block">{{session.title}}</dt>
+                                    {% for handson in session.sessions%}
+                                        <dt class="agenda-title">{{handson.title}}</dt>
+                                        <dt class="agenda-content">{{handson.description}}</dt>
+                                        <dt class="agenda-instructor">{{handson.instructor}}</dt>
+                                    {% endfor %}
+                                </dl>
+                            </td>
+                        </tr>
                         {% endfor %}
                     </tbody>
                 </table>

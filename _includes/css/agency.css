@@ -65,6 +65,27 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-regular-gray {
+    background-color: lightgray;
+}
+.concurrent-block{
+    color: rgb(254, 209, 54);
+    background-color: black;
+}
+
+.agenda-title {
+    background-color: lightgray;
+}
+
+.agenda-content{
+    font-weight: normal;
+    text-align: left;;
+}
+
+.agenda-instructor{
+    text-align: left;;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
