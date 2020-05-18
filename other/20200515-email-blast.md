@@ -12,7 +12,7 @@ FedGeoDay is the geospatial technology event for users, managers, and decision-m
 
 FedGeoDay convenes federal agencies, NGOs, technologists, educators and others who work with open ecosystem tools and communities including:
 
-- Free and Open Source communities  like the Open Source Geospatial Foundation (OSGeo)
+- Free and Open Source Software communities like the Open Source Geospatial Foundation (OSGeo)
 - Global collaborative mapping mapping communities like OpenStreetMap
 - AI and Machine Learning Initiatives like SpaceNet and theur ground breaking open science challenges
 
@@ -25,7 +25,7 @@ FedGeoDay convenes federal agencies, NGOs, technologists, educators and others w
 
 **Panel Day - June 11th**
 
-Panel Day has a rich program of panel discussions featuring experts from NGA, NOAA, USGS, GSA/JAIC, FEMA, OpenStreetMap US, Maxar, and others. 
+Panel Day has a rich program of presentations and panel discussions featuring experts from NGA, NOAA, USGS, GSA/JAIC, FEMA, OpenStreetMap US, Maxar, and others. 
 
 Topics will include:
 
