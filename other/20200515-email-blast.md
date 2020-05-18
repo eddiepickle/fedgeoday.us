@@ -55,4 +55,5 @@ Proceeds from FedGeoDay go to OSGEO US to fund future events and to grow the ado
 - Maxar
 - rgi
 - Azavea
+- Crunchy Data
 - GeoSurge
