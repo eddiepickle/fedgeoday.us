@@ -50,4 +50,4 @@ Thanks to our generous sponsors, registration for [FedGeoDay](https://fedgeo.us/
 Proceeds from FedGeoDay go to OSGEO US to fund future events and to grow the adoption of Free and Open Source Software for Geospatial through training and collaboration activities.
 
 **Thanks to our sponsors**
-<p style="width:200px">![OSGeo US Chapter](https://github.com/OSGeo-US/fedgeoday.us/raw/master/other/img/200-osgeo-us.png)<p>
+<div>![OSGeo US Chapter](https://github.com/OSGeo-US/fedgeoday.us/raw/master/other/img/200-osgeo-us.png)<div>
