@@ -3,28 +3,31 @@
   end_time: "12:00 PM"
   description: "Concurrent sessions online hands on sessions. Please read the description in the registration site for more details."
   sessions:
-  - title: Introduction to QGIS
-    description: This workshop is designed to introduce you to QGIS 3, an Open Source GIS software for viewing, editing, and managing spatial data in a wide variety of commonly used vector and raster formats. It is lightweight, flexible, and can be installed on Windows, MacOSX, and Linux. We will cover installing the software, displaying and symbolizing data and creating a map.
-    instructor: Randal Hale, North River Geographic Systems
-  - title: PostGIS Introduction
-    description: This session will leverage online, interactive tutorials provided by Crunchy Data that will walk participants through fundamental concepts and features of PostGIS. Crunchy Data will have their subject matter experts on hand to guide participants and answer questions.
-    instructor: Crunchy Data Staff
-  - title: Intro to OpenStreetMap (OSM)
-    description: TBA
-    instructor: TBA
+    - title: Introduction to QGIS
+      description: This workshop is designed to introduce you to QGIS 3, an Open Source GIS software for viewing, editing, and managing spatial data in a wide variety of commonly used vector and raster formats. It is lightweight, flexible, and can be installed on Windows, MacOSX, and Linux. We will cover installing the software, displaying and symbolizing data and creating a map.
+      instructor: Randal Hale, North River Geographic Systems
+    - title: PostGIS Introduction
+      description: This session will leverage online, interactive tutorials provided by Crunchy Data that will walk participants through fundamental concepts and features of PostGIS. Crunchy Data will have their subject matter experts on hand to guide participants and answer questions.
+      instructor: Crunchy Data Staff
+    - title: OpenStreetMap US & TeachOSM
+      description: >
+        This session will include an introduction to editing in OpenStreetMap (the free, editable map of the whole world) followed by a mapathon.<br/><br/>
+        Participants will gain a basic understanding of adding data to OpenStreetMap and then we will map part of the world together using the Tasking Manager. This session is open to mappers of all skill levels! No cost to join, but there is a suggested donation to OpenStreetMap US, the nonprofit that supports the OSM community in the US.
+      instructor: TBA
+
 - title: Afternoon Concurrent Sessions
   start_time: "1:00 PM"
   end_time: "4:00 PM"
   sessions:
-  - title: Data Visualization and Cartography with QGIS
-    description: "This workshop will explore the wide range of data visualization and cartographic options available in QGIS 3. QGIS has seen remarkable growth in it's cartogrpahic capacities in recent years. You will learn many techniques unique to QGIS such as: use of inverted polygon shapeburst fills, blending modes, live layer effects and geometry generator symbol layers. We will also work with animating time based data, 3D views and Mesh data. If you want to take your map creation skills to the next level - this is the perfect workshop for you!"
-    instructor: Kurt Menke, Bird's Eye View GIS
-  - title: Introduction to pg_tileserv and pg_featureserv
-    description: This session is an introduction and overview of two new open source spatial services they released, pg_tileserv and pg_featureserv. These two new microservices make PostGIS more available for developers to easily integrate their spatial data in PostGIS into web based spatial applications.
-    instructor: Crunchy Data Staff
-  - title: Ask Me Anything (AMA) with Paul Ramsey
-    description: Join Crunchy Data Executive Geospatial Engineer and founding contributor of PostGIS for an "Ask Me Anything" style session where attendees can ask Paul questions regarding PostGIS, Spatial data, and other spatial use cases. Attendees are encouraged to submit questions ahead of time so they can be grouped and addressed in an efficient manner. Attendees will be able to ask questions in real-time as well.
-    instructor: Paul Ramsey, Crunchy Data
-  - title: The Opportunity Project Earth Sprints
-    description: The Opportunity Project works through 12-week technology development sprints that bring technology developers, communities, and government together to solve problems using open data. Learn more about this process through this workshop and on our <a href="https://opportunity.census.gov/sprints/">website</a>
-    instructor: The Opportunity Project Representatives
+    - title: Data Visualization and Cartography with QGIS
+      description: "This workshop will explore the wide range of data visualization and cartographic options available in QGIS 3. QGIS has seen remarkable growth in it's cartogrpahic capacities in recent years. You will learn many techniques unique to QGIS such as: use of inverted polygon shapeburst fills, blending modes, live layer effects and geometry generator symbol layers. We will also work with animating time based data, 3D views and Mesh data. If you want to take your map creation skills to the next level - this is the perfect workshop for you!"
+      instructor: Kurt Menke, Bird's Eye View GIS
+    - title: Introduction to pg_tileserv and pg_featureserv
+      description: This session is an introduction and overview of two new open source spatial services they released, pg_tileserv and pg_featureserv. These two new microservices make PostGIS more available for developers to easily integrate their spatial data in PostGIS into web based spatial applications.
+      instructor: Crunchy Data Staff
+    - title: Ask Me Anything (AMA) with Paul Ramsey
+      description: Join Crunchy Data Executive Geospatial Engineer and founding contributor of PostGIS for an "Ask Me Anything" style session where attendees can ask Paul questions regarding PostGIS, Spatial data, and other spatial use cases. Attendees are encouraged to submit questions ahead of time so they can be grouped and addressed in an efficient manner. Attendees will be able to ask questions in real-time as well.
+      instructor: Paul Ramsey, Crunchy Data
+    - title: The Opportunity Project Earth Sprints
+      description: The Opportunity Project works through 12-week technology development sprints that bring technology developers, communities, and government together to solve problems using open data. Learn more about this process through this workshop and on our <a href="https://opportunity.census.gov/sprints/">website</a>
+      instructor: The Opportunity Project Representatives
