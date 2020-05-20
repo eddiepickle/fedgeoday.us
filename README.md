@@ -1,25 +1,22 @@
-# fed-geo-2020
-Work in Progress: Website for Fed Geo Day 2020 Conference
+# fedgeoday
 
-# install
-```bash
-bundle install --path vendor/bundle
-```
+Github website using jekyll for FedGeoDay Conference.
 
-# run
-Locally
-```
+<https://fedgeo.us>
+
+## Run Locally
+
+```sh
 bundle exec jekyll serve
 ```
-If you are on a server, you may have to run:
-```
-bundle exec jekyll serve --host 0.0.0.0
-```
 
-# primary contacts for the conference
-Eddie Pickle
-Guido Stein
+## primary contacts for the conference
 
-# primary contacts for the website
-Daniel J. Dufour (daniel@geosurge.io)
-Victoria Mak (victoria@geosurge.io)
+- Eddie Pickle
+- Guido Stein (guido@guidostein.com)
+
+## primary contacts for the website
+
+- Daniel J. Dufour (daniel@geosurge.io)
+- Victoria Mak (victoria@geosurge.io)
+- Guido Stein (guido@guidostein.com)
