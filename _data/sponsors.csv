@@ -1,8 +1,9 @@
 _name,lowercase_name,level,_url,img
-Azavea,azavea,silver,https://www.azavea.com/,azavea.png
-Crunchy Data,crunchy,silver,https://www.crunchydata.com/,crunchy.png
-Element 84,element 84,silver,https://www.element84.com/,element84.png
+Azavea,azavea,silver,https://www.azavea.com,azavea.png
+Crunchy Data,crunchy,silver,https://www.crunchydata.com,crunchy.png
+Element 84,element 84,silver,https://www.element84.com,element84.png
 GeoSurge,geosurge,bronze,https://github.com/GeoSurge,geosurge.jpg
-Maxar,maxar,platinum,https://www.maxar.com/,maxar.svg
+Maxar,maxar,platinum,https://www.maxar.com,maxar.svg
 OSGeo US,osgeo us,host,https://osgeo.us/,osgeo-us.png
-Reinventing Geospatial,reinventing geospatial,gold,http://www.rgi-corp.com/,rgi.png
+Reinventing Geospatial,reinventing geospatial,gold,http://www.rgi-corp.com,rgi.png
+GeoSolutions,geosolutions,bronze,https://www.geosolutionsinc.com,geosolutions.png
