@@ -50,6 +50,13 @@
                                     {% endfor %}
                                     {% endif %}
 
+                                    {% if session.speaker %}
+                                    <dt>Speaker</dt>
+                                    {% for person in session.speaker %}
+                                    {% include name.html person=person %}
+                                    {% endfor %}
+                                    {% endif %}
+
                                     {% if session.moderators %}
                                     <dt>Moderator{% if session.moderators.size > 1 %}s{% endif %}</dt>
                                     {% for person in session.moderators %}
@@ -98,9 +105,9 @@
                                 <dl class="text-center">
                                     <dt class="concurrent-block">{{session.title}}</dt>
                                     {% for handson in session.sessions%}
-                                        <dt class="agenda-title">{{handson.title}}</dt>
-                                        <dt class="agenda-content">{{handson.description}}</dt>
-                                        <dt class="agenda-instructor">{{handson.instructor}}</dt>
+                                    <dt class="agenda-title">{{handson.title}}</dt>
+                                    <dt class="agenda-content">{{handson.description}}</dt>
+                                    <dt class="agenda-instructor">{{handson.instructor}}</dt>
                                     {% endfor %}
                                 </dl>
                             </td>
