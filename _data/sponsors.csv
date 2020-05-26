@@ -1,12 +1,12 @@
 _name,lowercase_name,level,_url,img
+OSGeo US,osgeo us,host,https://osgeo.us/,osgeo-us.png
+Maxar,maxar,platinum,https://www.maxar.com,maxar.svg
+Reinventing Geospatial,reinventing geospatial,gold,http://www.rgi-corp.com,rgi.png
 Azavea,azavea,silver,https://www.azavea.com,azavea.png
 Crunchy Data,crunchy,silver,https://www.crunchydata.com,crunchy.png
 Element 84,element 84,silver,https://www.element84.com,element84.png
-GeoSurge,geosurge,bronze,https://github.com/GeoSurge,geosurge.jpg
-Maxar,maxar,platinum,https://www.maxar.com,maxar.svg
-OSGeo US,osgeo us,host,https://osgeo.us/,osgeo-us.png
-Reinventing Geospatial,reinventing geospatial,gold,http://www.rgi-corp.com,rgi.png
-GeoSolutions,geosolutions,bronze,https://www.geosolutionsgroup.com/,geosolutions.png
-UpSlope Advisors Inc,upslope,bronze,https://www.upslopeadvisors.com,Upslope.jpg
 Applied Geographics Inc.,appgeo,bronze,https://www.appgeo.com/,appgeo.png
 Cesium,cesium,bronze,https://cesium.com,cesium.png
+GeoSolutions,geosolutions,bronze,https://www.geosolutionsgroup.com/,geosolutions.png
+GeoSurge,geosurge,bronze,https://github.com/GeoSurge,geosurge.jpg
+UpSlope Advisors Inc,upslope,bronze,https://www.upslopeadvisors.com,Upslope.jpg
