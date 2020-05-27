@@ -4,15 +4,19 @@ This is a listing of messages we can use to publish out to twitter, insta, faceb
 
 # draft
 
-- Sponsorship
+## Sponsorship
 
-- Call to action
+- MESSAGE 1
 
-- Milestone
+## Call to action
+
+- MESSAGE 1
+
+## Milestone
+
+- MESSAGE 1
 
 # published
 
-## DATE
-
-- MESSAGE 1
-- MESSAGE 2
+- 00/00 - MESSAGE 1
+- 00/00 - MESSAGE 1
